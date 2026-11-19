@@ -1,0 +1,21 @@
+# Android Studio
+.gradle/
+.idea/
+.kotlin/
+*.iml
+
+# Local SDK configuration
+local.properties
+
+# Generated build files
+build/
+**/build/
+
+# macOS files
+.DS_Store
+__MACOSX/
+
+# Native build files
+.cxx/
+.externalNativeBuild/
+captures/
