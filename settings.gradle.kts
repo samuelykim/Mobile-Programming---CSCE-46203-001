@@ -22,6 +22,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "CS Planner"
+rootProject.name = "DegreePlanner"
 include(":app")
  

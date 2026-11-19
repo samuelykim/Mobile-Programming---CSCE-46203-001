@@ -4,14 +4,14 @@ plugins {
 }
 
 android {
-    namespace = "edu.uark.cm288.csplanner"
+    namespace = "com.example.degreeplanner"
     compileSdk {
         version = release(37)
     }
 
     defaultConfig {
-        applicationId = "edu.uark.cm288.csplanner"
-        minSdk = 30
+        applicationId = "com.example.degreeplanner"
+        minSdk = 37
         targetSdk = 37
         versionCode = 1
         versionName = "1.0"
@@ -22,8 +22,7 @@ android {
     buildTypes {
         release {
             optimization {
-                enable = true
-                packageScope = setOf("androidx.**", "kotlin.**", "kotlinx.**")
+                enable = false
             }
         }
     }
@@ -45,8 +44,6 @@ dependencies {
     implementation(libs.androidx.compose.ui.tooling.preview)
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
-    implementation("androidx.compose.ui:ui-text-google-fonts")
-    implementation("androidx.navigation:navigation-compose:2.8.0")
     testImplementation(libs.junit)
     androidTestImplementation(platform(libs.androidx.compose.bom))
     androidTestImplementation(libs.androidx.compose.ui.test.junit4)

@@ -1,0 +1,2709 @@
+{
+  "degreeId": "BSCS_2026_27",
+  "catalogYear": "2026-27",
+  "coursePlacements": [
+    {
+      "courseId": "GNEG 11101",
+      "semesterNumber": 1
+    },
+    {
+      "courseId": "ENGL 10103",
+      "semesterNumber": 1
+    },
+    {
+      "courseId": "CHEM 14103",
+      "semesterNumber": 1
+    },
+    {
+      "courseId": "MATH 24004",
+      "semesterNumber": 1
+    },
+    {
+      "courseId": "GNEG 11201",
+      "semesterNumber": 2
+    },
+    {
+      "courseId": "MATH 25004",
+      "semesterNumber": 2
+    },
+    {
+      "courseId": "PHYS 20304",
+      "semesterNumber": 2
+    },
+    {
+      "courseId": "ENGL 10303",
+      "semesterNumber": 2
+    },
+    {
+      "courseId": "CSCE 20004",
+      "semesterNumber": 3
+    },
+    {
+      "courseId": "CSCE 21104",
+      "semesterNumber": 3
+    },
+    {
+      "courseId": "MATH 26103",
+      "semesterNumber": 3
+    },
+    {
+      "courseId": "CSCE 20104",
+      "semesterNumber": 4
+    },
+    {
+      "courseId": "CSCE 22104",
+      "semesterNumber": 4
+    },
+    {
+      "courseId": "MATH 30803",
+      "semesterNumber": 4
+    },
+    {
+      "courseId": "CSCE 31903",
+      "semesterNumber": 5
+    },
+    {
+      "courseId": "CSCE 36103",
+      "semesterNumber": 5
+    },
+    {
+      "courseId": "INEG 33103",
+      "semesterNumber": 5
+    },
+    {
+      "courseId": "PHIL 31003",
+      "semesterNumber": 5
+    },
+    {
+      "courseId": "CSCE 35103",
+      "semesterNumber": 6
+    },
+    {
+      "courseId": "CSCE 45203",
+      "semesterNumber": 6
+    },
+    {
+      "courseId": "MATH 31003",
+      "semesterNumber": 6
+    },
+    {
+      "courseId": "SPCH 10003",
+      "semesterNumber": 6
+    },
+    {
+      "courseId": "CSCE 45601",
+      "semesterNumber": 7
+    },
+    {
+      "courseId": "CSCE 41303",
+      "semesterNumber": 7
+    },
+    {
+      "courseId": "CSCE 47503",
+      "semesterNumber": 7
+    },
+    {
+      "courseId": "CSCE 49603",
+      "semesterNumber": 8
+    },
+    {
+      "courseId": "CSCE 43203",
+      "semesterNumber": 8
+    }
+  ],
+  "electiveSlots": [
+    {
+      "requirementId": "HISTORY_ELECTIVE",
+      "name": "History Elective",
+      "semesterNumber": 1,
+      "creditHours": 3,
+      "options": [
+        {
+          "name": "U.S. History to 1877",
+          "courseIds": [
+            "HIST 20003"
+          ]
+        },
+        {
+          "name": "U.S. History since 1877",
+          "courseIds": [
+            "HIST 20103"
+          ]
+        }
+      ]
+    },
+    {
+      "requirementId": "FRESHMAN_SCIENCE_ELECTIVE",
+      "name": "Freshman Science Elective",
+      "semesterNumber": 2,
+      "creditHours": 4,
+      "options": [
+        {
+          "name": "Biology lecture and laboratory",
+          "courseIds": [
+            "BIOL 10103",
+            "BIOL 10101"
+          ]
+        },
+        {
+          "name": "Chemistry II lecture and laboratory",
+          "courseIds": [
+            "CHEM 14203",
+            "CHEM 14201"
+          ]
+        },
+        {
+          "name": "Physical Geology lecture and laboratory",
+          "courseIds": [
+            "GEOL 11103",
+            "GEOL 11101"
+          ]
+        },
+        {
+          "name": "University Physics II",
+          "courseIds": [
+            "PHYS 20404"
+          ]
+        }
+      ]
+    },
+    {
+      "requirementId": "FINE_ARTS_ELECTIVE_S3",
+      "name": "Fine Arts Elective (General Education Outcome 3.1)",
+      "semesterNumber": 3,
+      "creditHours": 3,
+      "options": [
+        {
+          "name": "Basic Course in the Arts: Architecture Lecture",
+          "courseIds": [
+            "ARCH 10003"
+          ]
+        },
+        {
+          "name": "Basic Course in the Arts: Art Lecture",
+          "courseIds": [
+            "ARHS 10003"
+          ]
+        },
+        {
+          "name": "Basic Course in the Arts: Film Lecture",
+          "courseIds": [
+            "COMM 10003"
+          ]
+        },
+        {
+          "name": "Experiencing Music",
+          "courseIds": [
+            "MUSC 10003"
+          ]
+        }
+      ]
+    },
+    {
+      "requirementId": "SOCIAL_SCIENCES_ELECTIVE_3_3_4_1_S3",
+      "name": "Social Sciences Elective (General Education Outcomes 3.3 and 4.1)",
+      "semesterNumber": 3,
+      "creditHours": 3,
+      "options": [
+        {
+          "name": "Introduction to Cultural Anthropology",
+          "courseIds": [
+            "ANTH 10203"
+          ]
+        },
+        {
+          "name": "Communication in a Diverse World",
+          "courseIds": [
+            "COMM 10203"
+          ]
+        },
+        {
+          "name": "Introduction to Comparative Politics",
+          "courseIds": [
+            "PLSC 20103"
+          ]
+        }
+      ]
+    },
+    {
+      "requirementId": "SOCIAL_SCIENCES_ELECTIVE_3_3_S4",
+      "name": "Social Sciences Elective (General Education Outcome 3.3)",
+      "semesterNumber": 4,
+      "creditHours": 3,
+      "options": [
+        {
+          "name": "American National Government",
+          "courseIds": [
+            "PLSC 20003"
+          ]
+        },
+        {
+          "name": "General Psychology",
+          "courseIds": [
+            "PSYC 20003"
+          ]
+        },
+        {
+          "name": "Principles of Macroeconomics",
+          "courseIds": [
+            "ECON 21003"
+          ]
+        }
+      ]
+    },
+    {
+      "requirementId": "GENERAL_ELECTIVE_S5",
+      "name": "General Elective",
+      "semesterNumber": 5,
+      "creditHours": 3,
+      "options": [],
+      "selectionType": "OPEN_GENERAL_ELECTIVE",
+      "requiresEligibilityReview": true,
+      "selectionGuidance": "Student selects an eligible 3-credit course; no particular course is prescribed by this slot. Verify catalog/degree applicability, any prerequisites, and that the course is not already counted elsewhere in the degree. The planner must not auto-select an unverified course."
+    },
+    {
+      "requirementId": "CSCE_4000_LEVEL_ELECTIVE_S6",
+      "name": "CSCE Elective (4000 level)",
+      "semesterNumber": 6,
+      "creditHours": 3,
+      "options": [
+        {
+          "name": "Programming Challenges",
+          "courseIds": [
+            "CSCE 41203"
+          ]
+        },
+        {
+          "name": "Concurrent Computing",
+          "courseIds": [
+            "CSCE 42503"
+          ]
+        },
+        {
+          "name": "Big Data Analytics and Management",
+          "courseIds": [
+            "CSCE 42703"
+          ]
+        },
+        {
+          "name": "Cryptography",
+          "courseIds": [
+            "CSCE 44303"
+          ]
+        },
+        {
+          "name": "Information Retrieval",
+          "courseIds": [
+            "CSCE 45503"
+          ]
+        },
+        {
+          "name": "Artificial Intelligence",
+          "courseIds": [
+            "CSCE 46103"
+          ]
+        },
+        {
+          "name": "Mobile Programming",
+          "courseIds": [
+            "CSCE 46203"
+          ]
+        },
+        {
+          "name": "Cloud Computing and Security",
+          "courseIds": [
+            "CSCE 47803"
+          ]
+        },
+        {
+          "name": "Computer Graphics",
+          "courseIds": [
+            "CSCE 48103"
+          ]
+        },
+        {
+          "name": "Information Security",
+          "courseIds": [
+            "CSCE 48503"
+          ]
+        }
+      ]
+    },
+    {
+      "requirementId": "CSCE_4000_LEVEL_ELECTIVE_S7",
+      "name": "CSCE Elective (4000 level)",
+      "semesterNumber": 7,
+      "creditHours": 3,
+      "options": [
+        {
+          "name": "Programming Challenges",
+          "courseIds": [
+            "CSCE 41203"
+          ]
+        },
+        {
+          "name": "Data Mining",
+          "courseIds": [
+            "CSCE 41403"
+          ]
+        },
+        {
+          "name": "Concurrent Computing",
+          "courseIds": [
+            "CSCE 42503"
+          ]
+        },
+        {
+          "name": "Big Data Analytics and Management",
+          "courseIds": [
+            "CSCE 42703"
+          ]
+        },
+        {
+          "name": "Cryptography",
+          "courseIds": [
+            "CSCE 44303"
+          ]
+        },
+        {
+          "name": "Information Retrieval",
+          "courseIds": [
+            "CSCE 45503"
+          ]
+        },
+        {
+          "name": "Artificial Intelligence",
+          "courseIds": [
+            "CSCE 46103"
+          ]
+        },
+        {
+          "name": "Mobile Programming",
+          "courseIds": [
+            "CSCE 46203"
+          ]
+        },
+        {
+          "name": "Cloud Computing and Security",
+          "courseIds": [
+            "CSCE 47803"
+          ]
+        },
+        {
+          "name": "Computer Graphics",
+          "courseIds": [
+            "CSCE 48103"
+          ]
+        },
+        {
+          "name": "Information Security",
+          "courseIds": [
+            "CSCE 48503"
+          ]
+        }
+      ]
+    },
+    {
+      "requirementId": "GENERAL_ELECTIVE_S7_A",
+      "name": "General Elective",
+      "semesterNumber": 7,
+      "creditHours": 3,
+      "options": [],
+      "selectionType": "OPEN_GENERAL_ELECTIVE",
+      "requiresEligibilityReview": true,
+      "selectionGuidance": "Student selects an eligible 3-credit course; no particular course is prescribed by this slot. Verify catalog/degree applicability, any prerequisites, and that the course is not already counted elsewhere in the degree. The planner must not auto-select an unverified course."
+    },
+    {
+      "requirementId": "GENERAL_ELECTIVE_S7_B",
+      "name": "General Elective",
+      "semesterNumber": 7,
+      "creditHours": 3,
+      "options": [],
+      "selectionType": "OPEN_GENERAL_ELECTIVE",
+      "requiresEligibilityReview": true,
+      "selectionGuidance": "Student selects an eligible 3-credit course; no particular course is prescribed by this slot. Verify catalog/degree applicability, any prerequisites, and that the course is not already counted elsewhere in the degree. The planner must not auto-select an unverified course."
+    },
+    {
+      "requirementId": "CSCE_4000_LEVEL_ELECTIVE_S8",
+      "name": "CSCE Elective (4000 level)",
+      "semesterNumber": 8,
+      "creditHours": 3,
+      "options": [
+        {
+          "name": "Programming Challenges",
+          "courseIds": [
+            "CSCE 41203"
+          ]
+        },
+        {
+          "name": "Concurrent Computing",
+          "courseIds": [
+            "CSCE 42503"
+          ]
+        },
+        {
+          "name": "Big Data Analytics and Management",
+          "courseIds": [
+            "CSCE 42703"
+          ]
+        },
+        {
+          "name": "Cryptography",
+          "courseIds": [
+            "CSCE 44303"
+          ]
+        },
+        {
+          "name": "Software Architecture",
+          "courseIds": [
+            "CSCE 45403"
+          ]
+        },
+        {
+          "name": "Information Retrieval",
+          "courseIds": [
+            "CSCE 45503"
+          ]
+        },
+        {
+          "name": "Artificial Intelligence",
+          "courseIds": [
+            "CSCE 46103"
+          ]
+        },
+        {
+          "name": "Mobile Programming",
+          "courseIds": [
+            "CSCE 46203"
+          ]
+        },
+        {
+          "name": "Cloud Computing and Security",
+          "courseIds": [
+            "CSCE 47803"
+          ]
+        },
+        {
+          "name": "Computer Graphics",
+          "courseIds": [
+            "CSCE 48103"
+          ]
+        },
+        {
+          "name": "Information Security",
+          "courseIds": [
+            "CSCE 48503"
+          ]
+        }
+      ]
+    },
+    {
+      "requirementId": "GENERAL_ELECTIVE_S8",
+      "name": "General Elective",
+      "semesterNumber": 8,
+      "creditHours": 3,
+      "options": [],
+      "selectionType": "OPEN_GENERAL_ELECTIVE",
+      "requiresEligibilityReview": true,
+      "selectionGuidance": "Student selects an eligible 3-credit course; no particular course is prescribed by this slot. Verify catalog/degree applicability, any prerequisites, and that the course is not already counted elsewhere in the degree. The planner must not auto-select an unverified course."
+    },
+    {
+      "requirementId": "SOCIAL_SCIENCES_ELECTIVE_3_3_S8",
+      "name": "Social Sciences Elective (General Education Outcome 3.3)",
+      "semesterNumber": 8,
+      "creditHours": 3,
+      "options": [
+        {
+          "name": "American National Government",
+          "courseIds": [
+            "PLSC 20003"
+          ]
+        },
+        {
+          "name": "General Psychology",
+          "courseIds": [
+            "PSYC 20003"
+          ]
+        },
+        {
+          "name": "Principles of Macroeconomics",
+          "courseIds": [
+            "ECON 21003"
+          ]
+        }
+      ]
+    }
+  ],
+  "degreeName": "Computer Science B.S.",
+  "totalCreditHours": 122,
+  "sourceUrl": "https://catalog.uark.edu/plangrids/computerscience_bs/",
+  "interestOptions": [
+    "Cybersecurity",
+    "Artificial Intelligence",
+    "Software Engineering",
+    "Data Science",
+    "Networking / Cloud",
+    "Systems / Programming"
+  ],
+  "interestTagsNote": "App-defined advisory topic tags, not official UARK program memberships, degree requirements, or proof of elective eligibility.",
+  "degreeOptions": [
+    {
+      "degreeId": "BSCS_2026_27",
+      "name": "Computer Science B.S.",
+      "planStatus": "template_available",
+      "totalCreditHours": 122,
+      "sourceUrl": "https://catalog.uark.edu/plangrids/computerscience_bs/"
+    },
+    {
+      "degreeId": "BSCS_CYBR_2026_27",
+      "name": "Computer Science B.S. with Cybersecurity Concentration",
+      "planStatus": "template_available",
+      "totalCreditHours": 122,
+      "sourceUrl": "https://catalog.uark.edu/plangrids/computersciencebswithcybersecurityconcentration/"
+    },
+    {
+      "degreeId": "BACS_2026_27",
+      "name": "Computer Science B.A.",
+      "planStatus": "template_available",
+      "totalCreditHours": 120,
+      "sourceUrl": "https://catalog.uark.edu/plangrids/computerscience_ba/"
+    },
+    {
+      "degreeId": "BSCMPE_2026_27",
+      "name": "Computer Engineering B.S.Cmp.E.",
+      "planStatus": "template_available",
+      "totalCreditHours": 126,
+      "sourceUrl": "https://catalog.uark.edu/plangrids/computerengineering_bscmpe/"
+    },
+    {
+      "degreeId": "BSCMPE_CYBR_2026_27",
+      "name": "Computer Engineering B.S.Cmp.E. with Cybersecurity Concentration",
+      "planStatus": "template_available",
+      "totalCreditHours": 126,
+      "sourceUrl": "https://catalog.uark.edu/plangrids/computer_engineering_with_cybersecurity_concentration/"
+    }
+  ],
+  "recommendedMinors": [
+    {
+      "minorId": "MATH_MINOR",
+      "name": "Mathematics",
+      "creditHoursMin": 16,
+      "creditHoursMax": 19,
+      "displayOnly": true,
+      "scheduleAutomatically": false,
+      "relatedInterests": [
+        "Artificial Intelligence",
+        "Data Science",
+        "Systems / Programming"
+      ],
+      "sourceUrl": "https://catalog.uark.edu/undergraduatecatalog/collegesandschools/jwilliamfulbrightcollegeofartsandsciences/mathematicalsciencesmasc/",
+      "minimumGrade": "C",
+      "requirements": {
+        "requiredCourseIds": [
+          "MATH 25004"
+        ],
+        "chooseOne": {
+          "chooseCount": 1,
+          "courseIds": [
+            "MATH 26103",
+            "MATH 28003",
+            "MATH 44203"
+          ],
+          "additionalCatalogAlternativeNotInCourseFile": [
+            "MATH 35803"
+          ],
+          "note": "The UARK minor page also lists MATH 35803, which should be checked for current course-catalog availability before presenting it as selectable."
+        },
+        "chooseThreeAdditional": {
+          "chooseCount": 3,
+          "minimumAdditionalCredits": 9,
+          "maximumAdditionalCredits": 12,
+          "specification": "Three distinct courses chosen from MATH 26004, MATH 25804 or any eligible MATH course at the 3000 level or above of at least 3 credits each.",
+          "sampleCatalogCourseIds": [
+            "MATH 26004",
+            "MATH 25804",
+            "MATH 30803",
+            "MATH 31003",
+            "MATH 44203"
+          ],
+          "notAnExhaustiveList": true,
+          "noDuplicateCoursesWithinMinor": true
+        }
+      },
+      "advisingNote": "Informational minor requirements only; does not automatically add courses to an eight-semester major plan. Count overlap, course eligibility and additional credits with an adviser."
+    }
+  ],
+  "additionalDegreeTemplates": [
+    {
+      "coursePlacements": [
+        {
+          "courseId": "GNEG 11101",
+          "semesterNumber": 1
+        },
+        {
+          "courseId": "ENGL 10103",
+          "semesterNumber": 1
+        },
+        {
+          "courseId": "CHEM 14103",
+          "semesterNumber": 1
+        },
+        {
+          "courseId": "MATH 24004",
+          "semesterNumber": 1
+        },
+        {
+          "courseId": "GNEG 11201",
+          "semesterNumber": 2
+        },
+        {
+          "courseId": "MATH 25004",
+          "semesterNumber": 2
+        },
+        {
+          "courseId": "PHYS 20304",
+          "semesterNumber": 2
+        },
+        {
+          "courseId": "ENGL 10303",
+          "semesterNumber": 2
+        },
+        {
+          "courseId": "CSCE 20004",
+          "semesterNumber": 3
+        },
+        {
+          "courseId": "CSCE 21104",
+          "semesterNumber": 3
+        },
+        {
+          "courseId": "MATH 26103",
+          "semesterNumber": 3
+        },
+        {
+          "courseId": "CSCE 20104",
+          "semesterNumber": 4
+        },
+        {
+          "courseId": "CSCE 22104",
+          "semesterNumber": 4
+        },
+        {
+          "courseId": "MATH 30803",
+          "semesterNumber": 4
+        },
+        {
+          "courseId": "CSCE 31903",
+          "semesterNumber": 5
+        },
+        {
+          "courseId": "CSCE 36103",
+          "semesterNumber": 5
+        },
+        {
+          "courseId": "INEG 33103",
+          "semesterNumber": 5
+        },
+        {
+          "courseId": "PHIL 31003",
+          "semesterNumber": 5
+        },
+        {
+          "courseId": "CSCE 35103",
+          "semesterNumber": 6
+        },
+        {
+          "courseId": "CSCE 45203",
+          "semesterNumber": 6
+        },
+        {
+          "courseId": "MATH 31003",
+          "semesterNumber": 6
+        },
+        {
+          "courseId": "SPCH 10003",
+          "semesterNumber": 6
+        },
+        {
+          "courseId": "CSCE 45601",
+          "semesterNumber": 7
+        },
+        {
+          "courseId": "CSCE 41303",
+          "semesterNumber": 7
+        },
+        {
+          "courseId": "CSCE 47503",
+          "semesterNumber": 7
+        },
+        {
+          "courseId": "CSCE 49603",
+          "semesterNumber": 8
+        },
+        {
+          "courseId": "CSCE 43203",
+          "semesterNumber": 8
+        }
+      ],
+      "electiveSlots": [
+        {
+          "requirementId": "HISTORY_ELECTIVE",
+          "name": "History Elective",
+          "semesterNumber": 1,
+          "creditHours": 3,
+          "options": [
+            {
+              "name": "U.S. History to 1877",
+              "courseIds": [
+                "HIST 20003"
+              ]
+            },
+            {
+              "name": "U.S. History since 1877",
+              "courseIds": [
+                "HIST 20103"
+              ]
+            }
+          ]
+        },
+        {
+          "requirementId": "FRESHMAN_SCIENCE_ELECTIVE",
+          "name": "Freshman Science Elective",
+          "semesterNumber": 2,
+          "creditHours": 4,
+          "options": [
+            {
+              "name": "Biology lecture and laboratory",
+              "courseIds": [
+                "BIOL 10103",
+                "BIOL 10101"
+              ]
+            },
+            {
+              "name": "Chemistry II lecture and laboratory",
+              "courseIds": [
+                "CHEM 14203",
+                "CHEM 14201"
+              ]
+            },
+            {
+              "name": "Physical Geology lecture and laboratory",
+              "courseIds": [
+                "GEOL 11103",
+                "GEOL 11101"
+              ]
+            },
+            {
+              "name": "University Physics II",
+              "courseIds": [
+                "PHYS 20404"
+              ]
+            }
+          ]
+        },
+        {
+          "requirementId": "FINE_ARTS_ELECTIVE_S3",
+          "name": "Fine Arts Elective (General Education Outcome 3.1)",
+          "semesterNumber": 3,
+          "creditHours": 3,
+          "options": [
+            {
+              "name": "Basic Course in the Arts: Architecture Lecture",
+              "courseIds": [
+                "ARCH 10003"
+              ]
+            },
+            {
+              "name": "Basic Course in the Arts: Art Lecture",
+              "courseIds": [
+                "ARHS 10003"
+              ]
+            },
+            {
+              "name": "Basic Course in the Arts: Film Lecture",
+              "courseIds": [
+                "COMM 10003"
+              ]
+            },
+            {
+              "name": "Experiencing Music",
+              "courseIds": [
+                "MUSC 10003"
+              ]
+            }
+          ]
+        },
+        {
+          "requirementId": "SOCIAL_SCIENCES_ELECTIVE_3_3_4_1_S3",
+          "name": "Social Sciences Elective (General Education Outcomes 3.3 and 4.1)",
+          "semesterNumber": 3,
+          "creditHours": 3,
+          "options": [
+            {
+              "name": "Introduction to Cultural Anthropology",
+              "courseIds": [
+                "ANTH 10203"
+              ]
+            },
+            {
+              "name": "Communication in a Diverse World",
+              "courseIds": [
+                "COMM 10203"
+              ]
+            },
+            {
+              "name": "Introduction to Comparative Politics",
+              "courseIds": [
+                "PLSC 20103"
+              ]
+            }
+          ]
+        },
+        {
+          "requirementId": "SOCIAL_SCIENCES_ELECTIVE_3_3_S4",
+          "name": "Social Sciences Elective (General Education Outcome 3.3)",
+          "semesterNumber": 4,
+          "creditHours": 3,
+          "options": [
+            {
+              "name": "American National Government",
+              "courseIds": [
+                "PLSC 20003"
+              ]
+            },
+            {
+              "name": "General Psychology",
+              "courseIds": [
+                "PSYC 20003"
+              ]
+            },
+            {
+              "name": "Principles of Macroeconomics",
+              "courseIds": [
+                "ECON 21003"
+              ]
+            }
+          ]
+        },
+        {
+          "requirementId": "GENERAL_ELECTIVE_S5",
+          "name": "General Elective",
+          "semesterNumber": 5,
+          "creditHours": 3,
+          "options": [],
+          "selectionType": "OPEN_GENERAL_ELECTIVE",
+          "requiresEligibilityReview": true,
+          "selectionGuidance": "Student selects an eligible 3-credit course; no particular course is prescribed by this slot. Verify catalog/degree applicability, any prerequisites, and that the course is not already counted elsewhere in the degree. The planner must not auto-select an unverified course."
+        },
+        {
+          "requirementId": "CSCE_4000_LEVEL_ELECTIVE_S6",
+          "name": "CSCE Cybersecurity Elective (4000 level)",
+          "semesterNumber": 6,
+          "creditHours": 3,
+          "options": [
+            {
+              "name": "Cryptography",
+              "courseIds": [
+                "CSCE 44303"
+              ]
+            },
+            {
+              "name": "Cloud Computing and Security",
+              "courseIds": [
+                "CSCE 47803"
+              ]
+            },
+            {
+              "name": "Information Security",
+              "courseIds": [
+                "CSCE 48503"
+              ]
+            }
+          ],
+          "selectionType": "REQUIRED_CYBERSECURITY_SET",
+          "requiredDistinctCourseIds": [
+            "CSCE 44303",
+            "CSCE 47803",
+            "CSCE 48503"
+          ],
+          "requiresEligibilityReview": true,
+          "selectionGuidance": "The official CS Cybersecurity B.S. requires all three listed courses across the three distinct cybersecurity elective slots. Respect prerequisite rules and actual course offerings; no duplicate course may fill multiple slots.",
+          "requirementCategory": "CONCENTRATION_REQUIREMENT",
+          "mustSelectDistinctCourses": true,
+          "allowedCourseIds": [
+            "CSCE 44303",
+            "CSCE 47803",
+            "CSCE 48503"
+          ]
+        },
+        {
+          "requirementId": "CSCE_4000_LEVEL_ELECTIVE_S7",
+          "name": "CSCE Cybersecurity Elective (4000 level)",
+          "semesterNumber": 7,
+          "creditHours": 3,
+          "options": [
+            {
+              "name": "Cryptography",
+              "courseIds": [
+                "CSCE 44303"
+              ]
+            },
+            {
+              "name": "Cloud Computing and Security",
+              "courseIds": [
+                "CSCE 47803"
+              ]
+            },
+            {
+              "name": "Information Security",
+              "courseIds": [
+                "CSCE 48503"
+              ]
+            }
+          ],
+          "selectionType": "REQUIRED_CYBERSECURITY_SET",
+          "requiredDistinctCourseIds": [
+            "CSCE 44303",
+            "CSCE 47803",
+            "CSCE 48503"
+          ],
+          "requiresEligibilityReview": true,
+          "selectionGuidance": "The official CS Cybersecurity B.S. requires all three listed courses across the three distinct cybersecurity elective slots. Respect prerequisite rules and actual course offerings; no duplicate course may fill multiple slots.",
+          "requirementCategory": "CONCENTRATION_REQUIREMENT",
+          "mustSelectDistinctCourses": true,
+          "allowedCourseIds": [
+            "CSCE 44303",
+            "CSCE 47803",
+            "CSCE 48503"
+          ]
+        },
+        {
+          "requirementId": "GENERAL_ELECTIVE_S7_A",
+          "name": "General Elective",
+          "semesterNumber": 7,
+          "creditHours": 3,
+          "options": [],
+          "selectionType": "OPEN_GENERAL_ELECTIVE",
+          "requiresEligibilityReview": true,
+          "selectionGuidance": "Student selects an eligible 3-credit course; no particular course is prescribed by this slot. Verify catalog/degree applicability, any prerequisites, and that the course is not already counted elsewhere in the degree. The planner must not auto-select an unverified course."
+        },
+        {
+          "requirementId": "GENERAL_ELECTIVE_S7_B",
+          "name": "General Elective",
+          "semesterNumber": 7,
+          "creditHours": 3,
+          "options": [],
+          "selectionType": "OPEN_GENERAL_ELECTIVE",
+          "requiresEligibilityReview": true,
+          "selectionGuidance": "Student selects an eligible 3-credit course; no particular course is prescribed by this slot. Verify catalog/degree applicability, any prerequisites, and that the course is not already counted elsewhere in the degree. The planner must not auto-select an unverified course."
+        },
+        {
+          "requirementId": "CSCE_4000_LEVEL_ELECTIVE_S8",
+          "name": "CSCE Cybersecurity Elective (4000 level)",
+          "semesterNumber": 8,
+          "creditHours": 3,
+          "options": [
+            {
+              "name": "Cryptography",
+              "courseIds": [
+                "CSCE 44303"
+              ]
+            },
+            {
+              "name": "Cloud Computing and Security",
+              "courseIds": [
+                "CSCE 47803"
+              ]
+            },
+            {
+              "name": "Information Security",
+              "courseIds": [
+                "CSCE 48503"
+              ]
+            }
+          ],
+          "selectionType": "REQUIRED_CYBERSECURITY_SET",
+          "requiredDistinctCourseIds": [
+            "CSCE 44303",
+            "CSCE 47803",
+            "CSCE 48503"
+          ],
+          "requiresEligibilityReview": true,
+          "selectionGuidance": "The official CS Cybersecurity B.S. requires all three listed courses across the three distinct cybersecurity elective slots. Respect prerequisite rules and actual course offerings; no duplicate course may fill multiple slots.",
+          "requirementCategory": "CONCENTRATION_REQUIREMENT",
+          "mustSelectDistinctCourses": true,
+          "allowedCourseIds": [
+            "CSCE 44303",
+            "CSCE 47803",
+            "CSCE 48503"
+          ]
+        },
+        {
+          "requirementId": "GENERAL_ELECTIVE_S8",
+          "name": "General Elective",
+          "semesterNumber": 8,
+          "creditHours": 3,
+          "options": [],
+          "selectionType": "OPEN_GENERAL_ELECTIVE",
+          "requiresEligibilityReview": true,
+          "selectionGuidance": "Student selects an eligible 3-credit course; no particular course is prescribed by this slot. Verify catalog/degree applicability, any prerequisites, and that the course is not already counted elsewhere in the degree. The planner must not auto-select an unverified course."
+        },
+        {
+          "requirementId": "SOCIAL_SCIENCES_ELECTIVE_3_3_S8",
+          "name": "Social Sciences Elective (General Education Outcome 3.3)",
+          "semesterNumber": 8,
+          "creditHours": 3,
+          "options": [
+            {
+              "name": "American National Government",
+              "courseIds": [
+                "PLSC 20003"
+              ]
+            },
+            {
+              "name": "General Psychology",
+              "courseIds": [
+                "PSYC 20003"
+              ]
+            },
+            {
+              "name": "Principles of Macroeconomics",
+              "courseIds": [
+                "ECON 21003"
+              ]
+            }
+          ]
+        }
+      ],
+      "degreeId": "BSCS_CYBR_2026_27",
+      "degreeName": "Computer Science B.S. with Cybersecurity Concentration",
+      "catalogYear": "2026-27",
+      "totalCreditHours": 122,
+      "requiredCybersecurityCourseIds": [
+        "CSCE 44303",
+        "CSCE 47803",
+        "CSCE 48503"
+      ],
+      "sourceUrl": "https://catalog.uark.edu/plangrids/computersciencebswithcybersecurityconcentration/",
+      "concentrationRequirements": {
+        "concentrationId": "CYBERSECURITY",
+        "requirementType": "ALL_REQUIRED",
+        "requiredCourseIds": [
+          "CSCE 44303",
+          "CSCE 47803",
+          "CSCE 48503"
+        ],
+        "totalCreditHours": 9,
+        "distinctCoursesRequired": true,
+        "note": "These three specific CSCE courses are mandatory for the CS B.S. concentration, not just any courses tagged Cybersecurity.",
+        "sourceUrl": "https://catalog.uark.edu/undergraduatecatalog/collegesandschools/collegeofengineering/electricalengineeringcomputerscience/"
+      },
+      "degreeTemplateStatus": "SUGGESTED_EIGHT_SEMESTER_SEQUENCE_WITH_UNFILLED_REQUIREMENTS",
+      "advisingDisclaimer": "Suggested curriculum only; not a guarantee of course availability, graduation eligibility, or approved substitutions."
+    },
+    {
+      "degreeId": "BACS_2026_27",
+      "degreeName": "Computer Science B.A.",
+      "catalogYear": "2026-27",
+      "totalCreditHours": 120,
+      "coursePlacements": [
+        {
+          "courseId": "ENGL 10103",
+          "semesterNumber": 1
+        },
+        {
+          "courseId": "MATH 24004",
+          "semesterNumber": 1
+        },
+        {
+          "courseId": "CSCE 20004",
+          "semesterNumber": 2
+        },
+        {
+          "courseId": "CSCE 21104",
+          "semesterNumber": 2
+        },
+        {
+          "courseId": "MATH 26103",
+          "semesterNumber": 2
+        },
+        {
+          "courseId": "CSCE 20104",
+          "semesterNumber": 3
+        },
+        {
+          "courseId": "CSCE 22104",
+          "semesterNumber": 3
+        },
+        {
+          "courseId": "CSCE 31903",
+          "semesterNumber": 4
+        },
+        {
+          "courseId": "SPCH 10003",
+          "semesterNumber": 4
+        },
+        {
+          "courseId": "MATH 21003",
+          "semesterNumber": 4
+        },
+        {
+          "courseId": "CSCE 35103",
+          "semesterNumber": 5
+        },
+        {
+          "courseId": "ENGL 30503",
+          "semesterNumber": 5
+        },
+        {
+          "courseId": "PHIL 31003",
+          "semesterNumber": 6
+        },
+        {
+          "courseId": "CSCE 36103",
+          "semesterNumber": 6
+        }
+      ],
+      "electiveSlots": [
+        {
+          "requirementId": "BA_SOCIAL_SCIENCES_3_3_4_1_S1",
+          "name": "Social Sciences Elective (3.3 and 4.1)",
+          "semesterNumber": 1,
+          "creditHours": 3,
+          "options": [
+            {
+              "name": "Introduction to Cultural Anthropology",
+              "courseIds": [
+                "ANTH 10203"
+              ]
+            },
+            {
+              "name": "Communication in a Diverse World",
+              "courseIds": [
+                "COMM 10203"
+              ]
+            },
+            {
+              "name": "Introduction to Comparative Politics",
+              "courseIds": [
+                "PLSC 20103"
+              ]
+            }
+          ],
+          "selectionType": "OPEN_REQUIREMENT",
+          "requiresEligibilityReview": true
+        },
+        {
+          "requirementId": "BA_HISTORY_S1",
+          "name": "History Elective (3.2 and 4.2)",
+          "semesterNumber": 1,
+          "creditHours": 3,
+          "options": [
+            {
+              "name": "U.S. History to 1877",
+              "courseIds": [
+                "HIST 20003"
+              ]
+            },
+            {
+              "name": "U.S. History since 1877",
+              "courseIds": [
+                "HIST 20103"
+              ]
+            }
+          ],
+          "selectionType": "OPEN_REQUIREMENT",
+          "requiresEligibilityReview": true
+        },
+        {
+          "requirementId": "BA_COMPOSITION_II_S2",
+          "name": "Composition II or Technical Composition II",
+          "semesterNumber": 2,
+          "creditHours": 3,
+          "options": [
+            {
+              "name": "Composition II",
+              "courseIds": [
+                "ENGL 10203"
+              ]
+            },
+            {
+              "name": "Technical Composition II",
+              "courseIds": [
+                "ENGL 10303"
+              ]
+            }
+          ],
+          "selectionType": "CHOOSE_ONE",
+          "requiresEligibilityReview": true
+        },
+        {
+          "requirementId": "BA_FINE_ARTS_S3",
+          "name": "Fine Arts Elective",
+          "semesterNumber": 3,
+          "creditHours": 3,
+          "options": [
+            {
+              "name": "Basic Course in the Arts: Architecture Lecture",
+              "courseIds": [
+                "ARCH 10003"
+              ]
+            },
+            {
+              "name": "Basic Course in the Arts: Art Lecture",
+              "courseIds": [
+                "ARHS 10003"
+              ]
+            },
+            {
+              "name": "Basic Course in the Arts: Film Lecture",
+              "courseIds": [
+                "COMM 10003"
+              ]
+            },
+            {
+              "name": "Experiencing Music",
+              "courseIds": [
+                "MUSC 10003"
+              ]
+            }
+          ],
+          "selectionType": "OPEN_REQUIREMENT",
+          "requiresEligibilityReview": true
+        },
+        {
+          "requirementId": "BA_SOCIAL_3_3_S3",
+          "name": "Social Sciences Elective (3.3)",
+          "semesterNumber": 3,
+          "creditHours": 3,
+          "options": [
+            {
+              "name": "American National Government",
+              "courseIds": [
+                "PLSC 20003"
+              ]
+            },
+            {
+              "name": "General Psychology",
+              "courseIds": [
+                "PSYC 20003"
+              ]
+            },
+            {
+              "name": "Principles of Macroeconomics",
+              "courseIds": [
+                "ECON 21003"
+              ]
+            }
+          ],
+          "selectionType": "OPEN_REQUIREMENT",
+          "requiresEligibilityReview": true
+        },
+        {
+          "requirementId": "BA_GENERAL_S3",
+          "name": "General Elective",
+          "semesterNumber": 3,
+          "creditHours": 3,
+          "options": [],
+          "selectionType": "OPEN_REQUIREMENT",
+          "requiresEligibilityReview": true
+        },
+        {
+          "requirementId": "BA_GENERAL_S4",
+          "name": "Two General Electives",
+          "semesterNumber": 4,
+          "creditHours": 6,
+          "options": [],
+          "selectionType": "OPEN_REQUIREMENT",
+          "requiresEligibilityReview": true,
+          "courseCount": 2
+        },
+        {
+          "requirementId": "BA_SCIENCE_S5",
+          "name": "Science Elective (General Education 3.4)",
+          "semesterNumber": 5,
+          "creditHours": 4,
+          "options": [],
+          "selectionType": "APPROVED_SCIENCE",
+          "requiresEligibilityReview": true
+        },
+        {
+          "requirementId": "BA_GENERAL_S5",
+          "name": "Two General Electives",
+          "semesterNumber": 5,
+          "creditHours": 6,
+          "options": [],
+          "selectionType": "OPEN_REQUIREMENT",
+          "requiresEligibilityReview": true,
+          "courseCount": 2
+        },
+        {
+          "requirementId": "BA_SOCIAL_3_3_S6",
+          "name": "Social Sciences Elective (3.3)",
+          "semesterNumber": 6,
+          "creditHours": 3,
+          "options": [
+            {
+              "name": "American National Government",
+              "courseIds": [
+                "PLSC 20003"
+              ]
+            },
+            {
+              "name": "General Psychology",
+              "courseIds": [
+                "PSYC 20003"
+              ]
+            },
+            {
+              "name": "Principles of Macroeconomics",
+              "courseIds": [
+                "ECON 21003"
+              ]
+            }
+          ],
+          "selectionType": "OPEN_REQUIREMENT",
+          "requiresEligibilityReview": true
+        },
+        {
+          "requirementId": "BA_GENERAL_S6",
+          "name": "Two General Electives, combined five credits",
+          "semesterNumber": 6,
+          "creditHours": 5,
+          "options": [],
+          "selectionType": "OPEN_REQUIREMENT",
+          "requiresEligibilityReview": true,
+          "courseCount": 2
+        },
+        {
+          "requirementId": "BA_CSCE_3000PLUS_S7",
+          "name": "Two CSCE Electives (3000 level or higher)",
+          "semesterNumber": 7,
+          "creditHours": 6,
+          "options": [],
+          "selectionType": "CSCE_3000_PLUS",
+          "requiresEligibilityReview": true,
+          "courseCount": 2
+        },
+        {
+          "requirementId": "BA_SCIENCE_S7",
+          "name": "Science Elective (General Education 3.4)",
+          "semesterNumber": 7,
+          "creditHours": 4,
+          "options": [],
+          "selectionType": "APPROVED_SCIENCE",
+          "requiresEligibilityReview": true
+        },
+        {
+          "requirementId": "BA_GENERAL_3000PLUS_S7",
+          "name": "Two General Electives (3000 level or higher)",
+          "semesterNumber": 7,
+          "creditHours": 6,
+          "options": [],
+          "selectionType": "GENERAL_3000_PLUS",
+          "requiresEligibilityReview": true,
+          "courseCount": 2
+        },
+        {
+          "requirementId": "BA_CSCE_3000PLUS_S8",
+          "name": "Two CSCE Electives (3000 level or higher)",
+          "semesterNumber": 8,
+          "creditHours": 6,
+          "options": [],
+          "selectionType": "CSCE_3000_PLUS",
+          "requiresEligibilityReview": true,
+          "courseCount": 2
+        },
+        {
+          "requirementId": "BA_GENERAL_3000PLUS_S8",
+          "name": "Three General Electives (3000 level or higher)",
+          "semesterNumber": 8,
+          "creditHours": 9,
+          "options": [],
+          "selectionType": "GENERAL_3000_PLUS",
+          "requiresEligibilityReview": true,
+          "courseCount": 3
+        }
+      ],
+      "sourceUrl": "https://catalog.uark.edu/plangrids/computerscience_ba/",
+      "notes": "B.A. differs substantially from B.S.; its 120-hour sequence is a separate template. Elective placeholders require eligibility/prerequisite review.",
+      "degreeTemplateStatus": "SUGGESTED_EIGHT_SEMESTER_SEQUENCE_WITH_UNFILLED_REQUIREMENTS",
+      "advisingDisclaimer": "Suggested curriculum only; not a guarantee of course availability, graduation eligibility, or approved substitutions."
+    },
+    {
+      "degreeId": "BSCMPE_2026_27",
+      "degreeName": "Computer Engineering B.S.Cmp.E.",
+      "catalogYear": "2026-27",
+      "totalCreditHours": 126,
+      "coursePlacements": [
+        {
+          "courseId": "GNEG 11101",
+          "semesterNumber": 1
+        },
+        {
+          "courseId": "MATH 24004",
+          "semesterNumber": 1
+        },
+        {
+          "courseId": "CHEM 14103",
+          "semesterNumber": 1
+        },
+        {
+          "courseId": "ENGL 10103",
+          "semesterNumber": 1
+        },
+        {
+          "courseId": "GNEG 11201",
+          "semesterNumber": 2
+        },
+        {
+          "courseId": "MATH 25004",
+          "semesterNumber": 2
+        },
+        {
+          "courseId": "PHYS 20304",
+          "semesterNumber": 2
+        },
+        {
+          "courseId": "ENGL 10303",
+          "semesterNumber": 2
+        },
+        {
+          "courseId": "CSCE 20004",
+          "semesterNumber": 3
+        },
+        {
+          "courseId": "CSCE 21104",
+          "semesterNumber": 3
+        },
+        {
+          "courseId": "MATH 26004",
+          "semesterNumber": 3
+        },
+        {
+          "courseId": "PHYS 20404",
+          "semesterNumber": 3
+        },
+        {
+          "courseId": "CSCE 20104",
+          "semesterNumber": 4
+        },
+        {
+          "courseId": "CSCE 22104",
+          "semesterNumber": 4
+        },
+        {
+          "courseId": "MATH 25804",
+          "semesterNumber": 4
+        },
+        {
+          "courseId": "MATH 26103",
+          "semesterNumber": 4
+        },
+        {
+          "courseId": "CSCE 31903",
+          "semesterNumber": 5
+        },
+        {
+          "courseId": "CSCE 36103",
+          "semesterNumber": 5
+        },
+        {
+          "courseId": "CSCE 39503",
+          "semesterNumber": 5
+        },
+        {
+          "courseId": "INEG 33103",
+          "semesterNumber": 5
+        },
+        {
+          "courseId": "CSCE 35103",
+          "semesterNumber": 6
+        },
+        {
+          "courseId": "ELEG 39903",
+          "semesterNumber": 6
+        },
+        {
+          "courseId": "PHIL 31003",
+          "semesterNumber": 6
+        },
+        {
+          "courseId": "SPCH 10003",
+          "semesterNumber": 6
+        },
+        {
+          "courseId": "CSCE 45601",
+          "semesterNumber": 7
+        },
+        {
+          "courseId": "CSCE 41104",
+          "semesterNumber": 7
+        },
+        {
+          "courseId": "CSCE 42103",
+          "semesterNumber": 8
+        },
+        {
+          "courseId": "CSCE 49603",
+          "semesterNumber": 8
+        }
+      ],
+      "electiveSlots": [
+        {
+          "requirementId": "CE_HISTORY_S1",
+          "name": "History Elective",
+          "semesterNumber": 1,
+          "creditHours": 3,
+          "options": [
+            {
+              "name": "U.S. History to 1877",
+              "courseIds": [
+                "HIST 20003"
+              ]
+            },
+            {
+              "name": "U.S. History since 1877",
+              "courseIds": [
+                "HIST 20103"
+              ]
+            }
+          ]
+        },
+        {
+          "requirementId": "CE_SCIENCE_S2",
+          "name": "Freshman Science Elective",
+          "semesterNumber": 2,
+          "creditHours": 4,
+          "options": [
+            {
+              "name": "Biology lecture and laboratory",
+              "courseIds": [
+                "BIOL 10103",
+                "BIOL 10101"
+              ]
+            },
+            {
+              "name": "Chemistry II lecture and laboratory",
+              "courseIds": [
+                "CHEM 14203",
+                "CHEM 14201"
+              ]
+            },
+            {
+              "name": "Physical Geology lecture and laboratory",
+              "courseIds": [
+                "GEOL 11103",
+                "GEOL 11101"
+              ]
+            },
+            {
+              "name": "University Physics II",
+              "courseIds": [
+                "PHYS 20404"
+              ]
+            }
+          ]
+        },
+        {
+          "requirementId": "CE_SOCIAL_S4",
+          "name": "Social Sciences Elective (General Education Outcomes 3.3 and 4.1)",
+          "semesterNumber": 4,
+          "creditHours": 3,
+          "options": [
+            {
+              "name": "Introduction to Cultural Anthropology",
+              "courseIds": [
+                "ANTH 10203"
+              ]
+            },
+            {
+              "name": "Communication in a Diverse World",
+              "courseIds": [
+                "COMM 10203"
+              ]
+            },
+            {
+              "name": "Introduction to Comparative Politics",
+              "courseIds": [
+                "PLSC 20103"
+              ]
+            }
+          ]
+        },
+        {
+          "requirementId": "CE_SOCIAL_S5",
+          "name": "Social Sciences Elective (General Education Outcome 3.3)",
+          "semesterNumber": 5,
+          "creditHours": 3,
+          "options": [
+            {
+              "name": "American National Government",
+              "courseIds": [
+                "PLSC 20003"
+              ]
+            },
+            {
+              "name": "General Psychology",
+              "courseIds": [
+                "PSYC 20003"
+              ]
+            },
+            {
+              "name": "Principles of Macroeconomics",
+              "courseIds": [
+                "ECON 21003"
+              ]
+            }
+          ]
+        },
+        {
+          "requirementId": "CE_FINEARTS_S7",
+          "name": "Fine Arts Elective (General Education Outcome 3.1)",
+          "semesterNumber": 7,
+          "creditHours": 3,
+          "options": [
+            {
+              "name": "Basic Course in the Arts: Architecture Lecture",
+              "courseIds": [
+                "ARCH 10003"
+              ]
+            },
+            {
+              "name": "Basic Course in the Arts: Art Lecture",
+              "courseIds": [
+                "ARHS 10003"
+              ]
+            },
+            {
+              "name": "Basic Course in the Arts: Film Lecture",
+              "courseIds": [
+                "COMM 10003"
+              ]
+            },
+            {
+              "name": "Experiencing Music",
+              "courseIds": [
+                "MUSC 10003"
+              ]
+            }
+          ]
+        },
+        {
+          "requirementId": "CE_SOCIAL_S8",
+          "name": "Social Sciences Elective (General Education Outcome 3.3)",
+          "semesterNumber": 8,
+          "creditHours": 3,
+          "options": [
+            {
+              "name": "American National Government",
+              "courseIds": [
+                "PLSC 20003"
+              ]
+            },
+            {
+              "name": "General Psychology",
+              "courseIds": [
+                "PSYC 20003"
+              ]
+            },
+            {
+              "name": "Principles of Macroeconomics",
+              "courseIds": [
+                "ECON 21003"
+              ]
+            }
+          ]
+        },
+        {
+          "requirementId": "CE_GENERAL_S7",
+          "name": "General Elective",
+          "semesterNumber": 7,
+          "creditHours": 3,
+          "options": [],
+          "selectionType": "OPEN_GENERAL_ELECTIVE",
+          "requiresEligibilityReview": true
+        },
+        {
+          "requirementId": "CE_GENERAL_S8",
+          "name": "General Elective",
+          "semesterNumber": 8,
+          "creditHours": 3,
+          "options": [],
+          "selectionType": "OPEN_GENERAL_ELECTIVE",
+          "requiresEligibilityReview": true
+        },
+        {
+          "requirementId": "CE_CSCE_S6",
+          "name": "CSCE Elective (4000 level)",
+          "semesterNumber": 6,
+          "creditHours": 3,
+          "options": [
+            {
+              "name": "Programming Challenges",
+              "courseIds": [
+                "CSCE 41203"
+              ]
+            },
+            {
+              "name": "Algorithms",
+              "courseIds": [
+                "CSCE 41303"
+              ]
+            },
+            {
+              "name": "Data Mining",
+              "courseIds": [
+                "CSCE 41403"
+              ]
+            },
+            {
+              "name": "Concurrent Computing",
+              "courseIds": [
+                "CSCE 42503"
+              ]
+            },
+            {
+              "name": "Big Data Analytics and Management",
+              "courseIds": [
+                "CSCE 42703"
+              ]
+            },
+            {
+              "name": "Formal Languages and Computability",
+              "courseIds": [
+                "CSCE 43203"
+              ]
+            },
+            {
+              "name": "Cryptography",
+              "courseIds": [
+                "CSCE 44303"
+              ]
+            },
+            {
+              "name": "Database Management Systems",
+              "courseIds": [
+                "CSCE 45203"
+              ]
+            },
+            {
+              "name": "Software Architecture",
+              "courseIds": [
+                "CSCE 45403"
+              ]
+            },
+            {
+              "name": "Information Retrieval",
+              "courseIds": [
+                "CSCE 45503"
+              ]
+            },
+            {
+              "name": "Artificial Intelligence",
+              "courseIds": [
+                "CSCE 46103"
+              ]
+            },
+            {
+              "name": "Mobile Programming",
+              "courseIds": [
+                "CSCE 46203"
+              ]
+            },
+            {
+              "name": "Computer Networks",
+              "courseIds": [
+                "CSCE 47503"
+              ]
+            },
+            {
+              "name": "Cloud Computing and Security",
+              "courseIds": [
+                "CSCE 47803"
+              ]
+            },
+            {
+              "name": "Computer Graphics",
+              "courseIds": [
+                "CSCE 48103"
+              ]
+            },
+            {
+              "name": "Information Security",
+              "courseIds": [
+                "CSCE 48503"
+              ]
+            }
+          ],
+          "selectionType": "CSCE_4000_LEVEL",
+          "requiresEligibilityReview": true
+        },
+        {
+          "requirementId": "CE_CSCE_S7_A",
+          "name": "CSCE Elective (4000 level)",
+          "semesterNumber": 7,
+          "creditHours": 3,
+          "options": [
+            {
+              "name": "Programming Challenges",
+              "courseIds": [
+                "CSCE 41203"
+              ]
+            },
+            {
+              "name": "Algorithms",
+              "courseIds": [
+                "CSCE 41303"
+              ]
+            },
+            {
+              "name": "Data Mining",
+              "courseIds": [
+                "CSCE 41403"
+              ]
+            },
+            {
+              "name": "Concurrent Computing",
+              "courseIds": [
+                "CSCE 42503"
+              ]
+            },
+            {
+              "name": "Big Data Analytics and Management",
+              "courseIds": [
+                "CSCE 42703"
+              ]
+            },
+            {
+              "name": "Formal Languages and Computability",
+              "courseIds": [
+                "CSCE 43203"
+              ]
+            },
+            {
+              "name": "Cryptography",
+              "courseIds": [
+                "CSCE 44303"
+              ]
+            },
+            {
+              "name": "Database Management Systems",
+              "courseIds": [
+                "CSCE 45203"
+              ]
+            },
+            {
+              "name": "Software Architecture",
+              "courseIds": [
+                "CSCE 45403"
+              ]
+            },
+            {
+              "name": "Information Retrieval",
+              "courseIds": [
+                "CSCE 45503"
+              ]
+            },
+            {
+              "name": "Artificial Intelligence",
+              "courseIds": [
+                "CSCE 46103"
+              ]
+            },
+            {
+              "name": "Mobile Programming",
+              "courseIds": [
+                "CSCE 46203"
+              ]
+            },
+            {
+              "name": "Computer Networks",
+              "courseIds": [
+                "CSCE 47503"
+              ]
+            },
+            {
+              "name": "Cloud Computing and Security",
+              "courseIds": [
+                "CSCE 47803"
+              ]
+            },
+            {
+              "name": "Computer Graphics",
+              "courseIds": [
+                "CSCE 48103"
+              ]
+            },
+            {
+              "name": "Information Security",
+              "courseIds": [
+                "CSCE 48503"
+              ]
+            }
+          ],
+          "selectionType": "CSCE_4000_LEVEL",
+          "requiresEligibilityReview": true
+        },
+        {
+          "requirementId": "CE_CSCE_S7_B",
+          "name": "CSCE Elective (4000 level)",
+          "semesterNumber": 7,
+          "creditHours": 3,
+          "options": [
+            {
+              "name": "Programming Challenges",
+              "courseIds": [
+                "CSCE 41203"
+              ]
+            },
+            {
+              "name": "Algorithms",
+              "courseIds": [
+                "CSCE 41303"
+              ]
+            },
+            {
+              "name": "Data Mining",
+              "courseIds": [
+                "CSCE 41403"
+              ]
+            },
+            {
+              "name": "Concurrent Computing",
+              "courseIds": [
+                "CSCE 42503"
+              ]
+            },
+            {
+              "name": "Big Data Analytics and Management",
+              "courseIds": [
+                "CSCE 42703"
+              ]
+            },
+            {
+              "name": "Formal Languages and Computability",
+              "courseIds": [
+                "CSCE 43203"
+              ]
+            },
+            {
+              "name": "Cryptography",
+              "courseIds": [
+                "CSCE 44303"
+              ]
+            },
+            {
+              "name": "Database Management Systems",
+              "courseIds": [
+                "CSCE 45203"
+              ]
+            },
+            {
+              "name": "Software Architecture",
+              "courseIds": [
+                "CSCE 45403"
+              ]
+            },
+            {
+              "name": "Information Retrieval",
+              "courseIds": [
+                "CSCE 45503"
+              ]
+            },
+            {
+              "name": "Artificial Intelligence",
+              "courseIds": [
+                "CSCE 46103"
+              ]
+            },
+            {
+              "name": "Mobile Programming",
+              "courseIds": [
+                "CSCE 46203"
+              ]
+            },
+            {
+              "name": "Computer Networks",
+              "courseIds": [
+                "CSCE 47503"
+              ]
+            },
+            {
+              "name": "Cloud Computing and Security",
+              "courseIds": [
+                "CSCE 47803"
+              ]
+            },
+            {
+              "name": "Computer Graphics",
+              "courseIds": [
+                "CSCE 48103"
+              ]
+            },
+            {
+              "name": "Information Security",
+              "courseIds": [
+                "CSCE 48503"
+              ]
+            }
+          ],
+          "selectionType": "CSCE_4000_LEVEL",
+          "requiresEligibilityReview": true
+        },
+        {
+          "requirementId": "CE_CSCE_S8",
+          "name": "CSCE Elective (4000 level)",
+          "semesterNumber": 8,
+          "creditHours": 3,
+          "options": [
+            {
+              "name": "Programming Challenges",
+              "courseIds": [
+                "CSCE 41203"
+              ]
+            },
+            {
+              "name": "Algorithms",
+              "courseIds": [
+                "CSCE 41303"
+              ]
+            },
+            {
+              "name": "Data Mining",
+              "courseIds": [
+                "CSCE 41403"
+              ]
+            },
+            {
+              "name": "Concurrent Computing",
+              "courseIds": [
+                "CSCE 42503"
+              ]
+            },
+            {
+              "name": "Big Data Analytics and Management",
+              "courseIds": [
+                "CSCE 42703"
+              ]
+            },
+            {
+              "name": "Formal Languages and Computability",
+              "courseIds": [
+                "CSCE 43203"
+              ]
+            },
+            {
+              "name": "Cryptography",
+              "courseIds": [
+                "CSCE 44303"
+              ]
+            },
+            {
+              "name": "Database Management Systems",
+              "courseIds": [
+                "CSCE 45203"
+              ]
+            },
+            {
+              "name": "Software Architecture",
+              "courseIds": [
+                "CSCE 45403"
+              ]
+            },
+            {
+              "name": "Information Retrieval",
+              "courseIds": [
+                "CSCE 45503"
+              ]
+            },
+            {
+              "name": "Artificial Intelligence",
+              "courseIds": [
+                "CSCE 46103"
+              ]
+            },
+            {
+              "name": "Mobile Programming",
+              "courseIds": [
+                "CSCE 46203"
+              ]
+            },
+            {
+              "name": "Computer Networks",
+              "courseIds": [
+                "CSCE 47503"
+              ]
+            },
+            {
+              "name": "Cloud Computing and Security",
+              "courseIds": [
+                "CSCE 47803"
+              ]
+            },
+            {
+              "name": "Computer Graphics",
+              "courseIds": [
+                "CSCE 48103"
+              ]
+            },
+            {
+              "name": "Information Security",
+              "courseIds": [
+                "CSCE 48503"
+              ]
+            }
+          ],
+          "selectionType": "CSCE_4000_LEVEL",
+          "requiresEligibilityReview": true
+        }
+      ],
+      "sourceUrl": "https://catalog.uark.edu/plangrids/computerengineering_bscmpe/",
+      "degreeTemplateStatus": "SUGGESTED_EIGHT_SEMESTER_SEQUENCE_WITH_UNFILLED_REQUIREMENTS",
+      "advisingDisclaimer": "Suggested course plan with unfilled elective requirements. Prerequisites, eligibility, offerings, substitutions and graduation status require university adviser review."
+    },
+    {
+      "degreeId": "BSCMPE_CYBR_2026_27",
+      "degreeName": "Computer Engineering B.S.Cmp.E. with Cybersecurity Concentration",
+      "catalogYear": "2026-27",
+      "totalCreditHours": 126,
+      "coursePlacements": [
+        {
+          "courseId": "GNEG 11101",
+          "semesterNumber": 1
+        },
+        {
+          "courseId": "MATH 24004",
+          "semesterNumber": 1
+        },
+        {
+          "courseId": "CHEM 14103",
+          "semesterNumber": 1
+        },
+        {
+          "courseId": "ENGL 10103",
+          "semesterNumber": 1
+        },
+        {
+          "courseId": "GNEG 11201",
+          "semesterNumber": 2
+        },
+        {
+          "courseId": "MATH 25004",
+          "semesterNumber": 2
+        },
+        {
+          "courseId": "PHYS 20304",
+          "semesterNumber": 2
+        },
+        {
+          "courseId": "ENGL 10303",
+          "semesterNumber": 2
+        },
+        {
+          "courseId": "CSCE 20004",
+          "semesterNumber": 3
+        },
+        {
+          "courseId": "CSCE 21104",
+          "semesterNumber": 3
+        },
+        {
+          "courseId": "MATH 26004",
+          "semesterNumber": 3
+        },
+        {
+          "courseId": "PHYS 20404",
+          "semesterNumber": 3
+        },
+        {
+          "courseId": "CSCE 20104",
+          "semesterNumber": 4
+        },
+        {
+          "courseId": "CSCE 22104",
+          "semesterNumber": 4
+        },
+        {
+          "courseId": "MATH 25804",
+          "semesterNumber": 4
+        },
+        {
+          "courseId": "MATH 26103",
+          "semesterNumber": 4
+        },
+        {
+          "courseId": "CSCE 31903",
+          "semesterNumber": 5
+        },
+        {
+          "courseId": "CSCE 36103",
+          "semesterNumber": 5
+        },
+        {
+          "courseId": "CSCE 39503",
+          "semesterNumber": 5
+        },
+        {
+          "courseId": "INEG 33103",
+          "semesterNumber": 5
+        },
+        {
+          "courseId": "CSCE 35103",
+          "semesterNumber": 6
+        },
+        {
+          "courseId": "ELEG 39903",
+          "semesterNumber": 6
+        },
+        {
+          "courseId": "PHIL 31003",
+          "semesterNumber": 6
+        },
+        {
+          "courseId": "SPCH 10003",
+          "semesterNumber": 6
+        },
+        {
+          "courseId": "CSCE 45601",
+          "semesterNumber": 7
+        },
+        {
+          "courseId": "CSCE 41104",
+          "semesterNumber": 7
+        },
+        {
+          "courseId": "CSCE 42103",
+          "semesterNumber": 8
+        },
+        {
+          "courseId": "CSCE 49603",
+          "semesterNumber": 8
+        }
+      ],
+      "electiveSlots": [
+        {
+          "requirementId": "CE_HISTORY_S1",
+          "name": "History Elective",
+          "semesterNumber": 1,
+          "creditHours": 3,
+          "options": [
+            {
+              "name": "U.S. History to 1877",
+              "courseIds": [
+                "HIST 20003"
+              ]
+            },
+            {
+              "name": "U.S. History since 1877",
+              "courseIds": [
+                "HIST 20103"
+              ]
+            }
+          ]
+        },
+        {
+          "requirementId": "CE_SCIENCE_S2",
+          "name": "Freshman Science Elective",
+          "semesterNumber": 2,
+          "creditHours": 4,
+          "options": [
+            {
+              "name": "Biology lecture and laboratory",
+              "courseIds": [
+                "BIOL 10103",
+                "BIOL 10101"
+              ]
+            },
+            {
+              "name": "Chemistry II lecture and laboratory",
+              "courseIds": [
+                "CHEM 14203",
+                "CHEM 14201"
+              ]
+            },
+            {
+              "name": "Physical Geology lecture and laboratory",
+              "courseIds": [
+                "GEOL 11103",
+                "GEOL 11101"
+              ]
+            },
+            {
+              "name": "University Physics II",
+              "courseIds": [
+                "PHYS 20404"
+              ]
+            }
+          ]
+        },
+        {
+          "requirementId": "CE_SOCIAL_S4",
+          "name": "Social Sciences Elective (General Education Outcomes 3.3 and 4.1)",
+          "semesterNumber": 4,
+          "creditHours": 3,
+          "options": [
+            {
+              "name": "Introduction to Cultural Anthropology",
+              "courseIds": [
+                "ANTH 10203"
+              ]
+            },
+            {
+              "name": "Communication in a Diverse World",
+              "courseIds": [
+                "COMM 10203"
+              ]
+            },
+            {
+              "name": "Introduction to Comparative Politics",
+              "courseIds": [
+                "PLSC 20103"
+              ]
+            }
+          ]
+        },
+        {
+          "requirementId": "CE_SOCIAL_S5",
+          "name": "Social Sciences Elective (General Education Outcome 3.3)",
+          "semesterNumber": 5,
+          "creditHours": 3,
+          "options": [
+            {
+              "name": "American National Government",
+              "courseIds": [
+                "PLSC 20003"
+              ]
+            },
+            {
+              "name": "General Psychology",
+              "courseIds": [
+                "PSYC 20003"
+              ]
+            },
+            {
+              "name": "Principles of Macroeconomics",
+              "courseIds": [
+                "ECON 21003"
+              ]
+            }
+          ]
+        },
+        {
+          "requirementId": "CE_FINEARTS_S7",
+          "name": "Fine Arts Elective (General Education Outcome 3.1)",
+          "semesterNumber": 7,
+          "creditHours": 3,
+          "options": [
+            {
+              "name": "Basic Course in the Arts: Architecture Lecture",
+              "courseIds": [
+                "ARCH 10003"
+              ]
+            },
+            {
+              "name": "Basic Course in the Arts: Art Lecture",
+              "courseIds": [
+                "ARHS 10003"
+              ]
+            },
+            {
+              "name": "Basic Course in the Arts: Film Lecture",
+              "courseIds": [
+                "COMM 10003"
+              ]
+            },
+            {
+              "name": "Experiencing Music",
+              "courseIds": [
+                "MUSC 10003"
+              ]
+            }
+          ]
+        },
+        {
+          "requirementId": "CE_SOCIAL_S8",
+          "name": "Social Sciences Elective (General Education Outcome 3.3)",
+          "semesterNumber": 8,
+          "creditHours": 3,
+          "options": [
+            {
+              "name": "American National Government",
+              "courseIds": [
+                "PLSC 20003"
+              ]
+            },
+            {
+              "name": "General Psychology",
+              "courseIds": [
+                "PSYC 20003"
+              ]
+            },
+            {
+              "name": "Principles of Macroeconomics",
+              "courseIds": [
+                "ECON 21003"
+              ]
+            }
+          ]
+        },
+        {
+          "requirementId": "CE_GENERAL_S7",
+          "name": "General Elective",
+          "semesterNumber": 7,
+          "creditHours": 3,
+          "options": [],
+          "selectionType": "OPEN_GENERAL_ELECTIVE",
+          "requiresEligibilityReview": true
+        },
+        {
+          "requirementId": "CE_GENERAL_S8",
+          "name": "General Elective",
+          "semesterNumber": 8,
+          "creditHours": 3,
+          "options": [],
+          "selectionType": "OPEN_GENERAL_ELECTIVE",
+          "requiresEligibilityReview": true
+        },
+        {
+          "requirementId": "CE_CYBER_S6",
+          "name": "CSCE Cybersecurity Elective (4000 level)",
+          "semesterNumber": 6,
+          "creditHours": 3,
+          "options": [
+            {
+              "name": "Cryptography",
+              "courseIds": [
+                "CSCE 44303"
+              ]
+            },
+            {
+              "name": "Computer Networks",
+              "courseIds": [
+                "CSCE 47503"
+              ]
+            },
+            {
+              "name": "Cloud Computing and Security",
+              "courseIds": [
+                "CSCE 47803"
+              ]
+            },
+            {
+              "name": "Information Security",
+              "courseIds": [
+                "CSCE 48503"
+              ]
+            }
+          ],
+          "selectionType": "CYBERSECURITY_CHOOSE_THREE_OF_FOUR",
+          "requiresEligibilityReview": true
+        },
+        {
+          "requirementId": "CE_CYBER_S7_A",
+          "name": "CSCE Cybersecurity Elective (4000 level)",
+          "semesterNumber": 7,
+          "creditHours": 3,
+          "options": [
+            {
+              "name": "Cryptography",
+              "courseIds": [
+                "CSCE 44303"
+              ]
+            },
+            {
+              "name": "Computer Networks",
+              "courseIds": [
+                "CSCE 47503"
+              ]
+            },
+            {
+              "name": "Cloud Computing and Security",
+              "courseIds": [
+                "CSCE 47803"
+              ]
+            },
+            {
+              "name": "Information Security",
+              "courseIds": [
+                "CSCE 48503"
+              ]
+            }
+          ],
+          "selectionType": "CYBERSECURITY_CHOOSE_THREE_OF_FOUR",
+          "requiresEligibilityReview": true
+        },
+        {
+          "requirementId": "CE_CSCE_S7_B",
+          "name": "CSCE Elective (4000 level)",
+          "semesterNumber": 7,
+          "creditHours": 3,
+          "options": [
+            {
+              "name": "Programming Challenges",
+              "courseIds": [
+                "CSCE 41203"
+              ]
+            },
+            {
+              "name": "Algorithms",
+              "courseIds": [
+                "CSCE 41303"
+              ]
+            },
+            {
+              "name": "Data Mining",
+              "courseIds": [
+                "CSCE 41403"
+              ]
+            },
+            {
+              "name": "Concurrent Computing",
+              "courseIds": [
+                "CSCE 42503"
+              ]
+            },
+            {
+              "name": "Big Data Analytics and Management",
+              "courseIds": [
+                "CSCE 42703"
+              ]
+            },
+            {
+              "name": "Formal Languages and Computability",
+              "courseIds": [
+                "CSCE 43203"
+              ]
+            },
+            {
+              "name": "Cryptography",
+              "courseIds": [
+                "CSCE 44303"
+              ]
+            },
+            {
+              "name": "Database Management Systems",
+              "courseIds": [
+                "CSCE 45203"
+              ]
+            },
+            {
+              "name": "Software Architecture",
+              "courseIds": [
+                "CSCE 45403"
+              ]
+            },
+            {
+              "name": "Information Retrieval",
+              "courseIds": [
+                "CSCE 45503"
+              ]
+            },
+            {
+              "name": "Artificial Intelligence",
+              "courseIds": [
+                "CSCE 46103"
+              ]
+            },
+            {
+              "name": "Mobile Programming",
+              "courseIds": [
+                "CSCE 46203"
+              ]
+            },
+            {
+              "name": "Computer Networks",
+              "courseIds": [
+                "CSCE 47503"
+              ]
+            },
+            {
+              "name": "Cloud Computing and Security",
+              "courseIds": [
+                "CSCE 47803"
+              ]
+            },
+            {
+              "name": "Computer Graphics",
+              "courseIds": [
+                "CSCE 48103"
+              ]
+            },
+            {
+              "name": "Information Security",
+              "courseIds": [
+                "CSCE 48503"
+              ]
+            }
+          ],
+          "selectionType": "CSCE_4000_LEVEL",
+          "requiresEligibilityReview": true
+        },
+        {
+          "requirementId": "CE_CYBER_S8",
+          "name": "CSCE Cybersecurity Elective (4000 level)",
+          "semesterNumber": 8,
+          "creditHours": 3,
+          "options": [
+            {
+              "name": "Cryptography",
+              "courseIds": [
+                "CSCE 44303"
+              ]
+            },
+            {
+              "name": "Computer Networks",
+              "courseIds": [
+                "CSCE 47503"
+              ]
+            },
+            {
+              "name": "Cloud Computing and Security",
+              "courseIds": [
+                "CSCE 47803"
+              ]
+            },
+            {
+              "name": "Information Security",
+              "courseIds": [
+                "CSCE 48503"
+              ]
+            }
+          ],
+          "selectionType": "CYBERSECURITY_CHOOSE_THREE_OF_FOUR",
+          "requiresEligibilityReview": true
+        }
+      ],
+      "sourceUrl": "https://catalog.uark.edu/plangrids/computer_engineering_with_cybersecurity_concentration/",
+      "degreeTemplateStatus": "SUGGESTED_EIGHT_SEMESTER_SEQUENCE_WITH_UNFILLED_REQUIREMENTS",
+      "advisingDisclaimer": "Suggested course plan with unfilled elective requirements. Prerequisites, eligibility, offerings, substitutions and graduation status require university adviser review.",
+      "concentrationRequirements": {
+        "concentrationId": "CYBERSECURITY",
+        "requirementType": "CHOOSE_N_DISTINCT",
+        "chooseCount": 3,
+        "eligibleCourseIds": [
+          "CSCE 44303",
+          "CSCE 47503",
+          "CSCE 47803",
+          "CSCE 48503"
+        ],
+        "totalCreditHours": 9,
+        "distinctCoursesRequired": true,
+        "note": "Computer Engineering Cybersecurity requires exactly three DISTINCT courses chosen from these four. The separate CSCE elective slot does not automatically count as an extra cybersecurity requirement.",
+        "sourceUrl": "https://catalog.uark.edu/undergraduatecatalog/collegesandschools/collegeofengineering/computerscienceandcomputerengineeringcsce/"
+      }
+    }
+  ],
+  "programUsageNote": "The root template remains Computer Science B.S. for compatibility; additionalDegreeTemplates now contains the other four programs. Find a plan by degreeId. Each template includes fixed courses plus elective placeholders; Sam must validate real selections. Math minor is informational and not automatically scheduled.",
+  "degreeRequirementPolicy": {
+    "courseTagUse": "INTEREST_RECOMMENDATION_ONLY",
+    "placementSource": "DEGREE_TEMPLATES",
+    "generalElectivePolicy": "OPEN_SLOT_REQUIRE_ADVISER_ELIGIBILITY_CHECK",
+    "minorPolicy": "Mathematics minor informational only. Do not silently insert minor classes or assume any course sharing is permitted; refer students to academic advising.",
+    "completedCoursesPolicy": "KEEP_COURSES_IN_CATALOG_AND_EXCLUDE_COMPLETED_FROM_REMAINING_SCHEDULE_ONLY",
+    "allowDuplicateCourseCredit": false,
+    "offeringWarning": "Typical terms are historical/indicative, not guaranteed course availability."
+  },
+  "degreeTemplateStatus": "SUGGESTED_EIGHT_SEMESTER_SEQUENCE_WITH_UNFILLED_REQUIREMENTS",
+  "advisingDisclaimer": "Suggested eight-semester sequences copied as course-ID placements and requirement slots from 2026-27 UARK catalog. Placeholder electives are not selected classes. Actual course eligibility, prerequisites, course availability, substitutions and graduation requirements must be checked with a UARK adviser."
+}
