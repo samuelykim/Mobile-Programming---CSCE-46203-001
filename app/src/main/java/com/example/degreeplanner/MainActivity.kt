@@ -12,11 +12,25 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.degreeplanner.ui.theme.DegreePlannerTheme
+import android.util.Log
+import com.example.degreeplanner.data.repository.DegreeRepository
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
+        val repository = DegreeRepository(this)
+        val courses = repository.loadCourses()
+
+        Log.d("DegreePlanner", "Loaded ${courses.size} courses")
+
+        val template = repository.loadDegreeTemplate()
+
+        Log.d("DegreePlanner", "Degree: ${template.degreeName}")
+        Log.d("DegreePlanner", "Credits: ${template.totalCreditHours}")
+        Log.d("DegreePlanner", "Courses: ${template.coursePlacements.size}")
+        Log.d("DegreePlanner", "Electives: ${template.electiveSlots.size}")
+
         setContent {
             DegreePlannerTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
