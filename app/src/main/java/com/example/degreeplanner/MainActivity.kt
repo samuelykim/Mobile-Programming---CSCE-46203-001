@@ -1,24 +1,28 @@
 package com.example.degreeplanner
 
 import android.os.Bundle
+import android.util.Log
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
-import androidx.compose.material3.Text
-import androidx.compose.runtime.Composable
+import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.tooling.preview.Preview
-import com.example.degreeplanner.ui.theme.DegreePlannerTheme
-import android.util.Log
+
 import com.example.degreeplanner.data.repository.DegreeRepository
+import com.example.degreeplanner.navigation.AppNavHost
+import com.example.degreeplanner.ui.theme.CSPlannerTheme
 
 class MainActivity : ComponentActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
+
+        // Sam's JSON loading
         val repository = DegreeRepository(this)
         val courses = repository.loadCourses()
 
@@ -31,31 +35,22 @@ class MainActivity : ComponentActivity() {
         Log.d("DegreePlanner", "Courses: ${template.coursePlacements.size}")
         Log.d("DegreePlanner", "Electives: ${template.electiveSlots.size}")
 
+        // Cade's UI and navigation
         setContent {
-            DegreePlannerTheme {
-                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
-                        modifier = Modifier.padding(innerPadding)
-                    )
+            CSPlannerTheme {
+                Scaffold(
+                    modifier = Modifier.fillMaxSize()
+                ) { innerPadding ->
+                    Surface(
+                        modifier = Modifier
+                            .fillMaxSize()
+                            .padding(innerPadding),
+                        color = MaterialTheme.colorScheme.background
+                    ) {
+                        AppNavHost()
+                    }
                 }
             }
         }
-    }
-}
-
-@Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Text(
-        text = "Hello $name!",
-        modifier = modifier
-    )
-}
-
-@Preview(showBackground = true)
-@Composable
-fun GreetingPreview() {
-    DegreePlannerTheme {
-        Greeting("Android")
     }
 }
