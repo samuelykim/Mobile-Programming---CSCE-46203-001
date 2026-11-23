@@ -15,6 +15,7 @@ import androidx.compose.ui.Modifier
 import com.example.degreeplanner.data.repository.DegreeRepository
 import com.example.degreeplanner.navigation.AppNavHost
 import com.example.degreeplanner.ui.theme.CSPlannerTheme
+import com.example.degreeplanner.data.planner.DegreePlanGenerator
 
 class MainActivity : ComponentActivity() {
 
@@ -34,6 +35,33 @@ class MainActivity : ComponentActivity() {
         Log.d("DegreePlanner", "Credits: ${template.totalCreditHours}")
         Log.d("DegreePlanner", "Courses: ${template.coursePlacements.size}")
         Log.d("DegreePlanner", "Electives: ${template.electiveSlots.size}")
+
+
+        val generator = DegreePlanGenerator()
+        val plan = generator.generatePlan(courses, template)
+
+        Log.d("DegreePlanner", "Generated: ${plan.degreeName}")
+
+        for (semester in plan.semesters) {
+
+            Log.d(
+                "DegreePlanner",
+                "Semester ${semester.semesterNumber}: " +
+                        "${semester.courses.size} courses, " +
+                        "${semester.electives.size} electives, " +
+                        "${semester.totalCredits} credits"
+            )
+        }
+
+        Log.d(
+            "DegreePlanner",
+            "Total degree credits: ${plan.totalCredits}"
+        )
+
+        for (warning in plan.warnings) {
+            Log.w("DegreePlanner", warning)
+        }
+
 
         // Cade's UI and navigation
         setContent {
