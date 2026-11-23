@@ -15,7 +15,7 @@ import androidx.compose.ui.Modifier
 import com.example.degreeplanner.data.repository.DegreeRepository
 import com.example.degreeplanner.navigation.AppNavHost
 import com.example.degreeplanner.ui.theme.CSPlannerTheme
-import com.example.degreeplanner.data.planner.DegreePlanGenerator
+import com.example.degreeplanner.planner.DegreePlanGenerator
 
 class MainActivity : ComponentActivity() {
 

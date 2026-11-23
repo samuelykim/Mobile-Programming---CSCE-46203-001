@@ -10,9 +10,12 @@ data class SemesterCourseItem(
 
 data class SemesterPlan(
     val semesterNumber: Int,
-    val semesterName: String,
-    val courses: List<SemesterCourseItem>,
-    val totalCreditHours: Int
+    val semesterName: String = "",
+    val courses: List<SemesterCourseItem> = emptyList(),
+    val rawCourses: List<Course> = emptyList(),
+    val electives: List<ElectiveSlot> = emptyList(),
+    val totalCreditHours: Int = 0,
+    val totalCredits: Int = 0
 )
 
 data class FullDegreePlan(

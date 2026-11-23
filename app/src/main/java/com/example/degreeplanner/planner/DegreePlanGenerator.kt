@@ -1,8 +1,9 @@
-package com.example.degreeplanner.data.planner
+package com.example.degreeplanner.planner
 
 import com.example.degreeplanner.data.model.Course
 import com.example.degreeplanner.data.model.DegreeTemplate
 import com.example.degreeplanner.data.model.DegreePlan
+import com.example.degreeplanner.data.model.SemesterCourseItem
 import com.example.degreeplanner.data.model.SemesterPlan
 
 class DegreePlanGenerator {
@@ -57,8 +58,19 @@ class DegreePlanGenerator {
             semesters.add(
                 SemesterPlan(
                     semesterNumber = semesterNumber,
-                    courses = semesterCourses,
+                    semesterName = "Semester $semesterNumber",
+                    courses = semesterCourses.map { course ->
+                        SemesterCourseItem(
+                            courseId = course.id,
+                            courseName = course.name,
+                            creditHours = course.creditHours,
+                            isElective = false,
+                            description = course.description
+                        )
+                    },
+                    rawCourses = semesterCourses,
                     electives = semesterElectives,
+                    totalCreditHours = totalCredits,
                     totalCredits = totalCredits
                 )
             )
