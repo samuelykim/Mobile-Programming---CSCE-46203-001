@@ -17,6 +17,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import com.example.degreeplanner.navigation.Screen
@@ -46,25 +47,20 @@ fun EntryScreen(
                 verticalArrangement = Arrangement.spacedBy(8.dp)
             ) {
                 Text(
-                    text = "Entry Screen",
+                    text = "Home Screen",
                     style = MaterialTheme.typography.headlineMedium,
                     fontWeight = FontWeight.Bold,
                     color = MaterialTheme.colorScheme.primary
                 )
                 Text(
-                    text = "Welcome to DegreePlanner! Use the buttons below to navigate to any screen in the app.",
-                    style = MaterialTheme.typography.bodyMedium
+                    text = "Welcome to CS DegreePlanner! Use the buttons below to navigate.",
+                    style = MaterialTheme.typography.bodyMedium,
+                    textAlign = TextAlign.Center
                 )
             }
         }
 
         HorizontalDivider(modifier = Modifier.padding(vertical = 4.dp))
-
-        Text(
-            text = "Navigate to standard screens:",
-            style = MaterialTheme.typography.titleSmall,
-            color = MaterialTheme.colorScheme.onBackground
-        )
 
         Button(
             onClick = { onNavigateTo(Screen.Onboarding.route) },
@@ -74,7 +70,7 @@ fun EntryScreen(
                 contentColor = MaterialTheme.colorScheme.onPrimary
             )
         ) {
-            Text("1. Onboarding Screen")
+            Text("New Degree Plan")
         }
 
         Button(
@@ -85,7 +81,7 @@ fun EntryScreen(
                 contentColor = MaterialTheme.colorScheme.onPrimary
             )
         ) {
-            Text("2. Recommendation Screen")
+            Text("Course Recommendations")
         }
 
         Button(
@@ -96,7 +92,7 @@ fun EntryScreen(
                 contentColor = MaterialTheme.colorScheme.onPrimary
             )
         ) {
-            Text("3. Degree Path Screen")
+            Text("Degree Path")
         }
 
         Button(
@@ -107,58 +103,29 @@ fun EntryScreen(
                 contentColor = MaterialTheme.colorScheme.onPrimary
             )
         ) {
-            Text("4. Instructor List Screen")
+            Text("Course Instructors")
         }
-
-        Text(
-            text = "Navigate to parameterized screens:",
-            style = MaterialTheme.typography.titleSmall,
-            color = MaterialTheme.colorScheme.onBackground,
-            modifier = Modifier.padding(top = 8.dp)
-        )
 
         Button(
             onClick = { onNavigateTo(Screen.Catalog.createRoute(forFeedback = false)) },
             modifier = Modifier.fillMaxWidth(),
             colors = ButtonDefaults.buttonColors(
-                containerColor = MaterialTheme.colorScheme.secondary,
-                contentColor = MaterialTheme.colorScheme.onSecondary
+                containerColor = MaterialTheme.colorScheme.primary,
+                contentColor = MaterialTheme.colorScheme.onPrimary
             )
         ) {
-            Text("5. Course Catalog (General)")
+            Text("Course Catalog")
         }
 
         Button(
             onClick = { onNavigateTo(Screen.Catalog.createRoute(forFeedback = true)) },
             modifier = Modifier.fillMaxWidth(),
             colors = ButtonDefaults.buttonColors(
-                containerColor = MaterialTheme.colorScheme.secondary,
-                contentColor = MaterialTheme.colorScheme.onSecondary
+                containerColor = MaterialTheme.colorScheme.primary,
+                contentColor = MaterialTheme.colorScheme.onPrimary
             )
         ) {
-            Text("5. Course Catalog (For Feedback)")
-        }
-
-        Button(
-            onClick = { onNavigateTo(Screen.CourseOverview.createRoute("CSCE 2004")) },
-            modifier = Modifier.fillMaxWidth(),
-            colors = ButtonDefaults.buttonColors(
-                containerColor = MaterialTheme.colorScheme.secondary,
-                contentColor = MaterialTheme.colorScheme.onSecondary
-            )
-        ) {
-            Text("6. Course Overview (CSCE 2004)")
-        }
-
-        Button(
-            onClick = { onNavigateTo(Screen.Feedback.createRoute("CSCE 2004")) },
-            modifier = Modifier.fillMaxWidth(),
-            colors = ButtonDefaults.buttonColors(
-                containerColor = MaterialTheme.colorScheme.secondary,
-                contentColor = MaterialTheme.colorScheme.onSecondary
-            )
-        ) {
-            Text("7. Course Feedback (CSCE 2004)")
+            Text("Provide Course Feedback")
         }
     }
 }

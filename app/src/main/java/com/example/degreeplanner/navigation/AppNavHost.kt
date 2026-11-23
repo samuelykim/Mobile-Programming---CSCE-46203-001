@@ -2,6 +2,7 @@ package com.example.degreeplanner.navigation
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavHostController
 import androidx.navigation.NavType
 import androidx.navigation.compose.NavHost
@@ -16,12 +17,14 @@ import com.example.degreeplanner.ui.screens.feedback.CourseFeedbackScreen
 import com.example.degreeplanner.ui.screens.instructors.InstructorListScreen
 import com.example.degreeplanner.ui.screens.onboarding.OnboardingScreen
 import com.example.degreeplanner.ui.screens.recommendation.RecommendationScreen
+import com.example.degreeplanner.viewmodel.OnboardingViewModel
 
 @Composable
 fun AppNavHost(
     modifier: Modifier = Modifier,
     navController: NavHostController = rememberNavController(),
-    startDestination: String = Screen.Entry.route
+    startDestination: String = Screen.Entry.route,
+    onboardingViewModel: OnboardingViewModel = viewModel()
 ) {
     NavHost(
         navController = navController,
@@ -32,13 +35,22 @@ fun AppNavHost(
             EntryScreen(onNavigateTo = { route -> navController.navigate(route) })
         }
         composable(Screen.Onboarding.route) {
-            OnboardingScreen(onNavigateTo = { route -> navController.navigate(route) })
+            OnboardingScreen(
+                viewModel = onboardingViewModel,
+                onNavigateTo = { route -> navController.navigate(route) }
+            )
         }
         composable(Screen.Recommendation.route) {
-            RecommendationScreen(onNavigateTo = { route -> navController.navigate(route) })
+            RecommendationScreen(
+                viewModel = onboardingViewModel,
+                onNavigateTo = { route -> navController.navigate(route) }
+            )
         }
         composable(Screen.DegreePath.route) {
-            DegreePathScreen(onNavigateTo = { route -> navController.navigate(route) })
+            DegreePathScreen(
+                viewModel = onboardingViewModel,
+                onNavigateTo = { route -> navController.navigate(route) }
+            )
         }
         composable(Screen.Instructors.route) {
             InstructorListScreen(onNavigateTo = { route -> navController.navigate(route) })
