@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "504924173832",
+    "project_id": "cs-degree-planner-235f8",
+    "storage_bucket": "cs-degree-planner-235f8.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:504924173832:android:bdb2d42e92dcb9905003bd",
+        "android_client_info": {
+          "package_name": "com.example.csplanner"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXjkfQTFF2MXuus4SSIstlAhzyozt-hbY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:504924173832:android:1859f132a5a2ecd05003bd",
+        "android_client_info": {
+          "package_name": "com.example.degreeplanner"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXjkfQTFF2MXuus4SSIstlAhzyozt-hbY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

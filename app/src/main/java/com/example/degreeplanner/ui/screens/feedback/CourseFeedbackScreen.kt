@@ -9,7 +9,6 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.rememberScrollState
-import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
@@ -18,7 +17,6 @@ import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedButton
-import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Slider
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -33,6 +31,7 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.degreeplanner.data.model.DetailedCourseFeedback
 import com.example.degreeplanner.navigation.Screen
 import com.example.degreeplanner.viewmodel.FeedbackViewModel
+import kotlin.math.roundToInt
 
 @Composable
 fun CourseFeedbackScreen(
@@ -168,22 +167,6 @@ fun CourseFeedbackScreen(
                     onValueChange = { viewModel.onOrganizationRatingChange(it) }
                 )
 
-                Text(
-                    text = "Written Feedback & Comments:",
-                    style = MaterialTheme.typography.titleSmall,
-                    fontWeight = FontWeight.SemiBold
-                )
-
-                OutlinedTextField(
-                    value = uiState.writtenFeedbackInput,
-                    onValueChange = { viewModel.onWrittenFeedbackChange(it) },
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .height(110.dp),
-                    placeholder = { Text("Share advice, comments, or details for future students...") },
-                    shape = RoundedCornerShape(12.dp)
-                )
-
                 Button(
                     onClick = { viewModel.submitFeedback() },
                     modifier = Modifier.fillMaxWidth(),
@@ -209,19 +192,6 @@ fun CourseFeedbackScreen(
                     )
                 }
             }
-        }
-
-        // Reviews List Section
-        Text(
-            text = "Student Written Reviews (${uiState.reviews.size}):",
-            style = MaterialTheme.typography.titleMedium,
-            fontWeight = FontWeight.Bold,
-            color = MaterialTheme.colorScheme.primary,
-            modifier = Modifier.fillMaxWidth()
-        )
-
-        uiState.reviews.forEach { review ->
-            ReviewCard(review = review)
         }
 
         Spacer(modifier = Modifier.height(8.dp))
@@ -283,9 +253,12 @@ fun RatingSliderInput(
         }
         Slider(
             value = value,
-            onValueChange = { onValueChange((Math.round(it * 10) / 10.0f)) },
+            onValueChange = {
+                //only allow whole number ratings from 0 to 5
+                onValueChange(it.roundToInt().toFloat())
+            },
             valueRange = 0f..5f,
-            steps = 9,
+            steps = 4,
             modifier = Modifier.fillMaxWidth()
         )
     }
