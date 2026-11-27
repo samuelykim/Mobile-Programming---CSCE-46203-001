@@ -12,6 +12,9 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
+import androidx.lifecycle.viewModelScope
+import com.example.degreeplanner.local.AppDatabase
+import kotlinx.coroutines.launch
 
 data class OnboardingUiState(
     val currentStep: Int = 0,
@@ -32,29 +35,84 @@ class OnboardingViewModel(application: Application) : AndroidViewModel(applicati
     val uiState: StateFlow<OnboardingUiState> = _uiState.asStateFlow()
 
     init {
+        //load degree choices and interest options
         val degrees = repository.loadDegreeOptions()
         val interests = repository.loadInterestOptions()
-        val courses = repository.loadCourses()
+
         val initialDegree = degrees.firstOrNull()
+
         val initialPrefs = StudentPreferences(
             degreeId = initialDegree?.degreeId ?: "BSCS_2026_27",
             degreeName = initialDegree?.name ?: "Computer Science B.S."
         )
-        val initialPlan = repository.generateDegreePlan(initialPrefs)
 
         _uiState.update { state ->
             state.copy(
                 availableDegrees = degrees,
                 availableInterests = interests,
-                allCourses = courses,
-                preferences = initialPrefs,
-                degreePlan = initialPlan
+                preferences = initialPrefs
             )
+        }
+
+        //load courses from your room database
+        val courseDao = AppDatabase
+            .getDatabase(application)
+            .courseDao()
+
+        viewModelScope.launch {
+            courseDao.getAllCourses().collect { roomCourses ->
+
+                //wait until the database contains courses
+                if (roomCourses.isEmpty()) return@collect
+
+                //convert room courses into Sams course model
+                val courses = roomCourses.map { entity ->
+                    Course(
+                        id = entity.id,
+                        name = entity.name,
+                        creditHours = entity.creditHours,
+                        description = entity.description,
+                        prerequisiteText = entity.prerequisiteText.orEmpty(),
+                        prerequisiteCourseIds = entity.prerequisiteCourseIds,
+                        prerequisiteLogicComplete = entity.prerequisiteLogicComplete,
+                        typicalTerms = entity.typicalTerms,
+                        interestTags = entity.interestTags,
+                        instructors = emptyList(),
+                        previousSchedules = emptyList(),
+                        averageRating = 0f,
+                        difficultyRating = 0f,
+                        studentFeedback = emptyList()
+                    )
+                }
+
+                _uiState.update { state ->
+                    state.copy(
+                        allCourses = courses,
+
+                        //generate the degree plan using room data
+                        degreePlan = repository.generateDegreePlan(
+                            state.preferences,
+                            courses
+                        )
+                    )
+                }
+            }
         }
     }
 
-    private fun recalculatePlan(updatedPrefs: StudentPreferences): FullDegreePlan {
-        return repository.generateDegreePlan(updatedPrefs)
+    private fun recalculatePlan(
+        updatedPrefs: StudentPreferences
+    ): FullDegreePlan? {
+
+        val courses = _uiState.value.allCourses
+
+        // Don't generate the plan until Room has loaded
+        if (courses.isEmpty()) return null
+
+        return repository.generateDegreePlan(
+            updatedPrefs,
+            courses
+        )
     }
 
     fun setAttendsUark(attends: Boolean) {

@@ -71,7 +71,7 @@ fun InstructorListScreen(
                     color = MaterialTheme.colorScheme.primary
                 )
                 Text(
-                    text = "Browse faculty members and view their associated taught courses",
+                    text = "Browse faculty members and student-reported course history",
                     style = MaterialTheme.typography.bodyMedium,
                     color = MaterialTheme.colorScheme.secondary
                 )
@@ -173,48 +173,72 @@ fun InstructorCard(
 
             HorizontalDivider()
 
-            // Toggleable Dropdown Header
-            Row(
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .clickable { isExpanded = !isExpanded }
-                    .padding(vertical = 4.dp),
-                horizontalArrangement = Arrangement.SpaceBetween,
-                verticalAlignment = Alignment.CenterVertically
-            ) {
-                Text(
-                    text = "Courses Taught (${instructor.taughtCourses.size})",
-                    style = MaterialTheme.typography.bodyMedium,
-                    fontWeight = FontWeight.Bold,
-                    color = MaterialTheme.colorScheme.primary
-                )
-                Text(
-                    text = if (isExpanded) "▲ Hide Courses" else "▼ View Courses",
-                    style = MaterialTheme.typography.bodySmall,
-                    fontWeight = FontWeight.Bold,
-                    color = MaterialTheme.colorScheme.secondary
-                )
-            }
+            //only show the dropdown when course history exists
+            if (instructor.taughtCourses.isNotEmpty()) {
 
-            // Dropdown Content
-            AnimatedVisibility(visible = isExpanded) {
-                FlowRow(
-                    modifier = Modifier.padding(top = 8.dp),
-                    horizontalArrangement = Arrangement.spacedBy(6.dp),
-                    verticalArrangement = Arrangement.spacedBy(6.dp)
+                //student reported course history dropdown
+                Row(
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .clickable { isExpanded = !isExpanded }
+                        .padding(vertical = 4.dp),
+                    horizontalArrangement = Arrangement.SpaceBetween,
+                    verticalAlignment = Alignment.CenterVertically
                 ) {
-                    instructor.taughtCourses.forEach { courseEntry ->
-                        val courseId = courseEntry.split(":").firstOrNull()?.trim() ?: ""
-                        SuggestionChip(
-                            onClick = {
-                                if (courseId.isNotEmpty()) {
-                                    onNavigateTo(Screen.CourseOverview.createRoute(courseId))
+                    Text(
+                        text = "Student-Reported Courses (${instructor.taughtCourses.size})",
+                        style = MaterialTheme.typography.bodyMedium,
+                        fontWeight = FontWeight.Bold,
+                        color = MaterialTheme.colorScheme.primary
+                    )
+
+                    Text(
+                        text = if (isExpanded) "▲ Hide Courses" else "▼ View Courses",
+                        style = MaterialTheme.typography.bodySmall,
+                        fontWeight = FontWeight.Bold,
+                        color = MaterialTheme.colorScheme.secondary
+                    )
+                }
+
+                //display courses when expanded
+                AnimatedVisibility(visible = isExpanded) {
+                    FlowRow(
+                        modifier = Modifier.padding(top = 8.dp),
+                        horizontalArrangement = Arrangement.spacedBy(6.dp),
+                        verticalArrangement = Arrangement.spacedBy(6.dp)
+                    ) {
+                        instructor.taughtCourses.forEach { courseEntry ->
+                            val courseId = courseEntry
+                                .substringBefore(":")
+                                .trim()
+
+                            SuggestionChip(
+                                onClick = {
+                                    if (courseId.isNotEmpty()) {
+                                        onNavigateTo(
+                                            Screen.CourseOverview.createRoute(courseId)
+                                        )
+                                    }
+                                },
+                                label = {
+                                    Text(
+                                        text = courseEntry,
+                                        style = MaterialTheme.typography.bodySmall
+                                    )
                                 }
-                            },
-                            label = { Text(courseEntry, style = MaterialTheme.typography.bodySmall) }
-                        )
+                            )
+                        }
                     }
                 }
+
+            } else {
+
+                //no course associations found for this professor
+                Text(
+                    text = "No student-reported course history available.",
+                    style = MaterialTheme.typography.bodySmall,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant
+                )
             }
         }
     }

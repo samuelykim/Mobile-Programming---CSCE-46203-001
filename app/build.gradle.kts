@@ -1,6 +1,8 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.compose)
+    alias(libs.plugins.google.services) //connect team app to firebase
+    alias(libs.plugins.ksp) //generate room database code
 }
 
 android {
@@ -53,4 +55,12 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     debugImplementation(libs.androidx.compose.ui.test.manifest)
     debugImplementation(libs.androidx.compose.ui.tooling)
+    implementation(platform(libs.firebase.bom)) //keep firebase libraries on compatible versions
+    implementation(libs.firebase.auth) //anonymous student authentication
+    implementation(libs.firebase.firestore) //store and retrieve course ratings
+    //local database
+    implementation(libs.room.runtime)
+    implementation(libs.room.ktx)
+    //generate room database implementation
+    ksp(libs.room.compiler)
 }

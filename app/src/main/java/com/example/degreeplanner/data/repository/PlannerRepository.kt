@@ -295,8 +295,12 @@ class PlannerRepository(private val context: Context) {
         }
     }
 
-    fun generateDegreePlan(preferences: StudentPreferences): FullDegreePlan {
-        val coursesMap = loadCourses().associateBy { it.id }
+    fun generateDegreePlan(
+        preferences: StudentPreferences,
+        courseList: List<Course> = loadCourses()
+    ): FullDegreePlan {
+
+        val coursesMap = courseList.associateBy { it.id }
         val templateData = loadTemplateDataForDegree(preferences.degreeId)
 
         val semesterNames = listOf(

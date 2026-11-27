@@ -1,0 +1,338 @@
+[
+  {
+    "instructorId": "dandrews",
+    "name": "David Andrews",
+    "department": "Electrical Engineering and Computer Science",
+    "email": "dandrews@uark.edu",
+    "office": "JBHT 527"
+  },
+  {
+    "instructorId": "jbalda",
+    "name": "Juan Carlos Balda",
+    "department": "Electrical Engineering and Computer Science",
+    "email": "jbalda@uark.edu",
+    "office": "BELL 3178"
+  },
+  {
+    "instructorId": "schabi",
+    "name": "Sakineh Chabi",
+    "department": "Electrical Engineering and Computer Science",
+    "email": "schabi@uark.edu",
+    "office": null
+  },
+  {
+    "instructorId": "yc041",
+    "name": "Yuxiang Chen",
+    "department": "Electrical Engineering and Computer Science",
+    "email": "yc041@uark.edu",
+    "office": null
+  },
+  {
+    "instructorId": "tuand",
+    "name": "Tuan Dang",
+    "department": "Electrical Engineering and Computer Science",
+    "email": "tuand@uark.edu",
+    "office": "JBHT 422"
+  },
+  {
+    "instructorId": "jdi",
+    "name": "Jia Di",
+    "department": "Electrical Engineering and Computer Science",
+    "email": "jdi@uark.edu",
+    "office": "JBHT 504"
+  },
+  {
+    "instructorId": "dix",
+    "name": "Jeff Dix",
+    "department": "Electrical Engineering and Computer Science",
+    "email": "dix@uark.edu",
+    "office": "BELL 3171"
+  },
+  {
+    "instructorId": "jd158",
+    "name": "Junliang Dong",
+    "department": "Electrical Engineering and Computer Science",
+    "email": "jd158@uark.edu",
+    "office": "BELL 3183"
+  },
+  {
+    "instructorId": "weidu",
+    "name": "Wei Du",
+    "department": "Electrical Engineering and Computer Science",
+    "email": "weidu@uark.edu",
+    "office": null
+  },
+  {
+    "instructorId": "elghazal",
+    "name": "Samir El-Ghazaly",
+    "department": "Electrical Engineering and Computer Science",
+    "email": "elghazal@uark.edu",
+    "office": null
+  },
+  {
+    "instructorId": "magda",
+    "name": "Magda El-Shenawee",
+    "department": "Electrical Engineering and Computer Science",
+    "email": "magda@uark.edu",
+    "office": null
+  },
+  {
+    "instructorId": "cfarnell",
+    "name": "Chris Farnell",
+    "department": "Electrical Engineering and Computer Science",
+    "email": "cfarnell@uark.edu",
+    "office": "JBHT 422"
+  },
+  {
+    "instructorId": "jgauch",
+    "name": "John Gauch",
+    "department": "Electrical Engineering and Computer Science",
+    "email": "jgauch@uark.edu",
+    "office": "JBHT 518"
+  },
+  {
+    "instructorId": "sgauch",
+    "name": "Susan Gauch",
+    "department": "Electrical Engineering and Computer Science",
+    "email": "sgauch@uark.edu",
+    "office": "JBHT 531"
+  },
+  {
+    "instructorId": "am471",
+    "name": "Alejandro Martin Gomez",
+    "department": "Electrical Engineering and Computer Science",
+    "email": "am471@uark.edu",
+    "office": "IIIR 284"
+  },
+  {
+    "instructorId": "mhassan1",
+    "name": "Mehedi Hassan",
+    "department": "Electrical Engineering and Computer Science",
+    "email": "mhassan1@uark.edu",
+    "office": "JBHT 419"
+  },
+  {
+    "instructorId": "mqhuang",
+    "name": "Miaoqing Huang",
+    "department": "Electrical Engineering and Computer Science",
+    "email": "mqhuang@uark.edu",
+    "office": "JBHT 526"
+  },
+  {
+    "instructorId": "dongjin",
+    "name": "Kevin Jin",
+    "department": "Electrical Engineering and Computer Science",
+    "email": "dongjin@uark.edu",
+    "office": "JBHT 523"
+  },
+  {
+    "instructorId": "jukim",
+    "name": "Jungtaek Kim",
+    "department": "Electrical Engineering and Computer Science",
+    "email": "jukim@uark.edu",
+    "office": null
+  },
+  {
+    "instructorId": "thile",
+    "name": "Ngan Le",
+    "department": "Electrical Engineering and Computer Science",
+    "email": "thile@uark.edu",
+    "office": null
+  },
+  {
+    "instructorId": "qinghual",
+    "name": "Qinghua Li",
+    "department": "Electrical Engineering and Computer Science",
+    "email": "qinghual@uark.edu",
+    "office": null
+  },
+  {
+    "instructorId": "khoaluu",
+    "name": "Khoa Luu",
+    "department": "Electrical Engineering and Computer Science",
+    "email": "khoaluu@uark.edu",
+    "office": null
+  },
+  {
+    "instructorId": "manasreh",
+    "name": "Omar Manasreh",
+    "department": "Electrical Engineering and Computer Science",
+    "email": "manasreh@uark.edu",
+    "office": null
+  },
+  {
+    "instructorId": "mantooth",
+    "name": "Alan Mantooth",
+    "department": "Electrical Engineering and Computer Science",
+    "email": "mantooth@uark.edu",
+    "office": null
+  },
+  {
+    "instructorId": "tmartin",
+    "name": "Terry Martin",
+    "department": "Electrical Engineering and Computer Science",
+    "email": "tmartin@uark.edu",
+    "office": "BELL 3174"
+  },
+  {
+    "instructorId": "rmccann",
+    "name": "Roy McCann",
+    "department": "Electrical Engineering and Computer Science",
+    "email": "rmccann@uark.edu",
+    "office": "BELL 3173"
+  },
+  {
+    "instructorId": "hanaseem",
+    "name": "Hameed Naseem",
+    "department": "Electrical Engineering and Computer Science",
+    "email": "hanaseem@uark.edu",
+    "office": null
+  },
+  {
+    "instructorId": "ahnelson",
+    "name": "Alexander Nelson",
+    "department": "Electrical Engineering and Computer Science",
+    "email": "ahnelson@uark.edu",
+    "office": "JBHT 528"
+  },
+  {
+    "instructorId": "yanjunp",
+    "name": "Yanjun Pan",
+    "department": "Electrical Engineering and Computer Science",
+    "email": "yanjunp@uark.edu",
+    "office": "JBHT 520"
+  },
+  {
+    "instructorId": "bpanda",
+    "name": "Brajendra Panda",
+    "department": "Electrical Engineering and Computer Science",
+    "email": "bpanda@uark.edu",
+    "office": "JBHT 524"
+  },
+  {
+    "instructorId": "patitz",
+    "name": "Matthew Patitz",
+    "department": "Electrical Engineering and Computer Science",
+    "email": "patitz@uark.edu",
+    "office": "JBHT 517"
+  },
+  {
+    "instructorId": "abhi",
+    "name": "Abhi Rajagopala",
+    "department": "Electrical Engineering and Computer Science",
+    "email": "abhi@uark.edu",
+    "office": "JBHT 421"
+  },
+  {
+    "instructorId": "tar003",
+    "name": "Trent Rogers",
+    "department": "Electrical Engineering and Computer Science",
+    "email": "tar003@uark.edu",
+    "office": null
+  },
+  {
+    "instructorId": "rsaunder",
+    "name": "Robert Saunders",
+    "department": "Electrical Engineering and Computer Science",
+    "email": "rsaunder@uark.edu",
+    "office": "BELL 3217"
+  },
+  {
+    "instructorId": "shahriar",
+    "name": "Hasan Shahriar",
+    "department": "Electrical Engineering and Computer Science",
+    "email": "shahriar@uark.edu",
+    "office": null
+  },
+  {
+    "instructorId": "songx",
+    "name": "Xiaoqing Song",
+    "department": "Electrical Engineering and Computer Science",
+    "email": "songx@uark.edu",
+    "office": null
+  },
+  {
+    "instructorId": "lstrothe",
+    "name": "Lora Streeter",
+    "department": "Electrical Engineering and Computer Science",
+    "email": "lstrothe@uark.edu",
+    "office": "JBHT 420"
+  },
+  {
+    "instructorId": "jps011",
+    "name": "Jim Strother",
+    "department": "Electrical Engineering and Computer Science",
+    "email": "jps011@uark.edu",
+    "office": "JBHT 423"
+  },
+  {
+    "instructorId": "drt",
+    "name": "Dale Thompson",
+    "department": "Electrical Engineering and Computer Science",
+    "email": "drt@uark.edu",
+    "office": "JBHT 508"
+  },
+  {
+    "instructorId": "meware",
+    "name": "Morgan Ware",
+    "department": "Electrical Engineering and Computer Science",
+    "email": "meware@uark.edu",
+    "office": "NANO 208"
+  },
+  {
+    "instructorId": "pwilson4",
+    "name": "Peter Reid Wilson",
+    "department": "Electrical Engineering and Computer Science",
+    "email": "pwilson4@uark.edu",
+    "office": null
+  },
+  {
+    "instructorId": "cmworkma",
+    "name": "Chad Workman",
+    "department": "Electrical Engineering and Computer Science",
+    "email": "cmworkma@uark.edu",
+    "office": null
+  },
+  {
+    "instructorId": "wuj",
+    "name": "Jingxian Wu",
+    "department": "Electrical Engineering and Computer Science",
+    "email": "wuj@uark.edu",
+    "office": null
+  },
+  {
+    "instructorId": "xintaowu",
+    "name": "Xintao Wu",
+    "department": "Electrical Engineering and Computer Science",
+    "email": "xintaowu@uark.edu",
+    "office": "JBHT 516"
+  },
+  {
+    "instructorId": "qxia",
+    "name": "Qianxue Xia",
+    "department": "Electrical Engineering and Computer Science",
+    "email": "qxia@uark.edu",
+    "office": null
+  },
+  {
+    "instructorId": "syu",
+    "name": "Fisher Yu",
+    "department": "Electrical Engineering and Computer Science",
+    "email": "syu@uark.edu",
+    "office": "NANO 207"
+  },
+  {
+    "instructorId": "lz006",
+    "name": "Lu Zhang",
+    "department": "Electrical Engineering and Computer Science",
+    "email": "lz006@uark.edu",
+    "office": null
+  },
+  {
+    "instructorId": "yuezhao",
+    "name": "Yue Zhao",
+    "department": "Electrical Engineering and Computer Science",
+    "email": "yuezhao@uark.edu",
+    "office": null
+  }
+]

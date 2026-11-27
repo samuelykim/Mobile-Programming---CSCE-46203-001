@@ -29,6 +29,12 @@ import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.degreeplanner.navigation.Screen
 import com.example.degreeplanner.viewmodel.CourseDetailViewModel
+import androidx.compose.runtime.collectAsState
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.remember
+import kotlinx.coroutines.flow.map
+import androidx.compose.runtime.LaunchedEffect
+import com.example.degreeplanner.viewmodel.FeedbackViewModel
 
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
@@ -37,7 +43,28 @@ fun CourseOverviewScreen(
     viewModel: CourseDetailViewModel = viewModel(),
     onNavigateTo: (String) -> Unit
 ) {
-    val course = viewModel.getCourseById(courseId)
+    //observe the selected course from room database
+    val courseFlow = remember(viewModel, courseId) {
+        viewModel.observeCourse(courseId).map { course ->
+            true to course
+        }
+    }
+
+    val loadResult by courseFlow.collectAsState(
+        initial = false to null
+    )
+
+    val (isLoaded, course) = loadResult
+    //use existing firebase feedback ViewModel
+    val ratingsViewModel: FeedbackViewModel =
+        androidx.lifecycle.viewmodel.compose.viewModel()
+
+    val ratingsState by ratingsViewModel.uiState.collectAsState()
+
+    //load ratings for the selected course
+    LaunchedEffect(courseId) {
+        ratingsViewModel.loadFeedbackForCourse(courseId)
+    }
     val scrollState = rememberScrollState()
 
     Column(
@@ -48,7 +75,12 @@ fun CourseOverviewScreen(
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.spacedBy(16.dp)
     ) {
-        if (course == null) {
+        if (!isLoaded) {
+            Text(
+                text = "Loading course...",
+                style = MaterialTheme.typography.bodyLarge
+            )
+        } else if (course == null) {
             Card(
                 modifier = Modifier.fillMaxWidth(),
                 colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface)
@@ -184,145 +216,128 @@ fun CourseOverviewScreen(
                 }
             }
 
-            // Instructors Section
+            // Student reported instructor history
             Card(
                 modifier = Modifier.fillMaxWidth(),
-                colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface)
+                colors = CardDefaults.cardColors(
+                    containerColor = MaterialTheme.colorScheme.surface
+                )
             ) {
                 Column(
                     modifier = Modifier.padding(16.dp),
                     verticalArrangement = Arrangement.spacedBy(8.dp)
                 ) {
                     Text(
-                        text = "Associated Instructors",
+                        text = "Student-Reported Instructor History",
                         style = MaterialTheme.typography.titleMedium,
                         fontWeight = FontWeight.Bold,
                         color = MaterialTheme.colorScheme.primary
                     )
-                    HorizontalDivider()
-                    course.instructors.forEach { instructorName ->
-                        Row(
-                            modifier = Modifier.fillMaxWidth(),
-                            verticalAlignment = Alignment.CenterVertically
-                        ) {
-                            Text("• ", fontWeight = FontWeight.Bold)
-                            Text(
-                                text = instructorName,
-                                style = MaterialTheme.typography.bodyLarge,
-                                fontWeight = FontWeight.SemiBold
-                            )
-                        }
-                    }
-                }
-            }
 
-            // Previous Schedules Section
-            Card(
-                modifier = Modifier.fillMaxWidth(),
-                colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface)
-            ) {
-                Column(
-                    modifier = Modifier.padding(16.dp),
-                    verticalArrangement = Arrangement.spacedBy(8.dp)
-                ) {
-                    Text(
-                        text = "Available Previous Schedules",
-                        style = MaterialTheme.typography.titleMedium,
-                        fontWeight = FontWeight.Bold,
-                        color = MaterialTheme.colorScheme.primary
-                    )
                     HorizontalDivider()
-                    if (course.previousSchedules.isEmpty()) {
+
+                    if (course.instructors.isEmpty()) {
+
                         Text(
-                            text = "No previous schedules recorded.",
+                            text = "No instructor history available for this course.",
                             style = MaterialTheme.typography.bodyMedium,
                             color = MaterialTheme.colorScheme.onSurfaceVariant
                         )
+
                     } else {
-                        course.previousSchedules.forEach { schedule ->
+
+                        course.instructors.distinct().forEach { instructorName ->
+
                             Row(
-                                modifier = Modifier
-                                    .fillMaxWidth()
-                                    .padding(vertical = 2.dp),
+                                modifier = Modifier.fillMaxWidth(),
                                 verticalAlignment = Alignment.CenterVertically
                             ) {
-                                Text("📅 ", style = MaterialTheme.typography.bodyMedium)
+                                Text("• ", fontWeight = FontWeight.Bold)
+
                                 Text(
-                                    text = schedule,
-                                    style = MaterialTheme.typography.bodyMedium
+                                    text = instructorName,
+                                    style = MaterialTheme.typography.bodyLarge,
+                                    fontWeight = FontWeight.SemiBold
                                 )
                             }
                         }
+
+                        Text(
+                            text = "Based on student-reported course associations. " +
+                                    "Not a confirmed current teaching schedule.",
+                            style = MaterialTheme.typography.bodySmall,
+                            color = MaterialTheme.colorScheme.onSurfaceVariant
+                        )
                     }
                 }
             }
-
-            // Student Ratings & Feedback Section
+            //student ratings section with firebase
             Card(
                 modifier = Modifier.fillMaxWidth(),
-                colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface)
+                colors = CardDefaults.cardColors(
+                    containerColor = MaterialTheme.colorScheme.surface
+                )
             ) {
                 Column(
                     modifier = Modifier.padding(16.dp),
                     verticalArrangement = Arrangement.spacedBy(8.dp)
                 ) {
-                    Row(
-                        modifier = Modifier.fillMaxWidth(),
-                        horizontalArrangement = Arrangement.SpaceBetween,
-                        verticalAlignment = Alignment.CenterVertically
-                    ) {
-                        Text(
-                            text = "Student Ratings & Feedback",
-                            style = MaterialTheme.typography.titleMedium,
-                            fontWeight = FontWeight.Bold,
-                            color = MaterialTheme.colorScheme.primary
-                        )
-                        Text(
-                            text = "${course.averageRating} / 5.0 ★",
-                            style = MaterialTheme.typography.titleMedium,
-                            fontWeight = FontWeight.Bold,
-                            color = MaterialTheme.colorScheme.secondary
-                        )
-                    }
+                    Text(
+                        text = "Student Ratings",
+                        style = MaterialTheme.typography.titleMedium,
+                        fontWeight = FontWeight.Bold,
+                        color = MaterialTheme.colorScheme.primary
+                    )
 
                     HorizontalDivider()
 
-                    if (course.studentFeedback.isEmpty()) {
-                        Text(
-                            text = "No feedback submitted yet.",
-                            style = MaterialTheme.typography.bodyMedium,
-                            color = MaterialTheme.colorScheme.onSurfaceVariant
-                        )
-                    } else {
-                        course.studentFeedback.forEach { review ->
-                            Column(
-                                modifier = Modifier
-                                    .fillMaxWidth()
-                                    .padding(vertical = 4.dp),
-                                verticalArrangement = Arrangement.spacedBy(2.dp)
-                            ) {
-                                Row(
-                                    modifier = Modifier.fillMaxWidth(),
-                                    horizontalArrangement = Arrangement.SpaceBetween
-                                ) {
-                                    Text(
-                                        text = "${review.studentName} (${review.term})",
-                                        style = MaterialTheme.typography.bodyMedium,
-                                        fontWeight = FontWeight.Bold
-                                    )
-                                    Text(
-                                        text = "${review.rating} ★",
-                                        style = MaterialTheme.typography.bodySmall,
-                                        fontWeight = FontWeight.Bold,
-                                        color = MaterialTheme.colorScheme.primary
-                                    )
-                                }
-                                Text(
-                                    text = "\"${review.comment}\"",
-                                    style = MaterialTheme.typography.bodyMedium
+                    val metrics = ratingsState.metrics
+
+                    when {
+                        ratingsState.isLoading -> {
+                            Text("Loading ratings...")
+                        }
+
+                        ratingsState.errorMessage != null -> {
+                            Text(
+                                text = "Could not load ratings: ${ratingsState.errorMessage}",
+                                color = MaterialTheme.colorScheme.error
+                            )
+                        }
+
+                        metrics.totalSubmissions == 0 -> {
+                            Text("No ratings submitted yet.")
+                        }
+
+                        else -> {
+                            Text(
+                                "Overall Course: %.1f / 5".format(
+                                    metrics.overallRating
                                 )
-                            }
-                            HorizontalDivider(modifier = Modifier.padding(vertical = 4.dp))
+                            )
+
+                            Text(
+                                "Difficulty: %.1f / 5".format(
+                                    metrics.difficultyRating
+                                )
+                            )
+
+                            Text(
+                                "Assignments: %.1f / 5".format(
+                                    metrics.workloadRating
+                                )
+                            )
+
+                            Text(
+                                "Instructor Experience: %.1f / 5".format(
+                                    metrics.organizationRating
+                                )
+                            )
+
+                            Text(
+                                "Total Ratings: ${metrics.totalSubmissions}",
+                                fontWeight = FontWeight.Bold
+                            )
                         }
                     }
                 }

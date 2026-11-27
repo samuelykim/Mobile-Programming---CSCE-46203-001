@@ -1,0 +1,282 @@
+[
+  {
+    "instructorId": "jgauch",
+    "instructorName": "John Gauch",
+    "courseId": "CSCE 43203",
+    "courseName": "Formal Languages and Computability",
+    "reportedCourseCode": "CSCE4323",
+    "source": "Rate My Professors — student-reported course",
+    "sourceUrl": "https://www.ratemyprofessors.com/professor/1725456",
+    "evidenceLevel": "student_reported_not_officially_confirmed"
+  },
+  {
+    "instructorId": "jgauch",
+    "instructorName": "John Gauch",
+    "courseId": "CSCE 20104",
+    "courseName": "Programming Foundations II",
+    "reportedCourseCode": "CSCE20104",
+    "source": "Rate My Professors — student-reported course",
+    "sourceUrl": "https://www.ratemyprofessors.com/professor/1725456",
+    "evidenceLevel": "student_reported_not_officially_confirmed"
+  },
+  {
+    "instructorId": "jgauch",
+    "instructorName": "John Gauch",
+    "courseId": "CSCE 48103",
+    "courseName": "Computer Graphics",
+    "reportedCourseCode": "CSCE4813",
+    "source": "Rate My Professors — student-reported course",
+    "sourceUrl": "https://www.ratemyprofessors.com/professor/1725456",
+    "evidenceLevel": "student_reported_not_officially_confirmed"
+  },
+  {
+    "instructorId": "sgauch",
+    "instructorName": "Susan Gauch",
+    "courseId": "CSCE 45203",
+    "courseName": "Database Management Systems",
+    "reportedCourseCode": "CSCE4523",
+    "source": "Rate My Professors — student-reported course",
+    "sourceUrl": "https://www.ratemyprofessors.com/professor/1592964",
+    "evidenceLevel": "student_reported_not_officially_confirmed"
+  },
+  {
+    "instructorId": "sgauch",
+    "instructorName": "Susan Gauch",
+    "courseId": "CSCE 45503",
+    "courseName": "Information Retrieval",
+    "reportedCourseCode": "CSCE45503",
+    "source": "Rate My Professors — student-reported course",
+    "sourceUrl": "https://www.ratemyprofessors.com/professor/1592964",
+    "evidenceLevel": "student_reported_not_officially_confirmed"
+  },
+  {
+    "instructorId": "drt",
+    "instructorName": "Dale Thompson",
+    "courseId": "CSCE 47503",
+    "courseName": "Computer Networks",
+    "reportedCourseCode": "CSCE47503",
+    "source": "Rate My Professors — student-reported course",
+    "sourceUrl": "https://www.ratemyprofessors.com/professor/619181",
+    "evidenceLevel": "student_reported_not_officially_confirmed"
+  },
+  {
+    "instructorId": "drt",
+    "instructorName": "Dale Thompson",
+    "courseId": "CSCE 36103",
+    "courseName": "Operating Systems",
+    "reportedCourseCode": "CSCE3613",
+    "source": "Rate My Professors — student-reported course",
+    "sourceUrl": "https://www.ratemyprofessors.com/professor/619181",
+    "evidenceLevel": "student_reported_not_officially_confirmed"
+  },
+  {
+    "instructorId": "bpanda",
+    "instructorName": "Brajendra Panda",
+    "courseId": "CSCE 45203",
+    "courseName": "Database Management Systems",
+    "reportedCourseCode": "CSCE45203",
+    "source": "Rate My Professors — student-reported course",
+    "sourceUrl": "https://www.ratemyprofessors.com/professor/93878",
+    "evidenceLevel": "student_reported_not_officially_confirmed"
+  },
+  {
+    "instructorId": "bpanda",
+    "instructorName": "Brajendra Panda",
+    "courseId": "CSCE 48503",
+    "courseName": "Information Security",
+    "reportedCourseCode": "CSCE4853",
+    "source": "Rate My Professors — student-reported course",
+    "sourceUrl": "https://www.ratemyprofessors.com/professor/93878",
+    "evidenceLevel": "student_reported_not_officially_confirmed"
+  },
+  {
+    "instructorId": "jdi",
+    "instructorName": "Jia Di",
+    "courseId": "CSCE 39503",
+    "courseName": "System Synthesis and Modeling",
+    "reportedCourseCode": "CSCE39503",
+    "source": "Rate My Professors — student-reported course",
+    "sourceUrl": "https://www.ratemyprofessors.com/professor/2116242",
+    "evidenceLevel": "student_reported_not_officially_confirmed"
+  },
+  {
+    "instructorId": "xintaowu",
+    "instructorName": "Xintao Wu",
+    "courseId": "CSCE 45203",
+    "courseName": "Database Management Systems",
+    "reportedCourseCode": "CSCE4523",
+    "source": "Rate My Professors — student-reported course",
+    "sourceUrl": "https://www.ratemyprofessors.com/professor/2093540",
+    "evidenceLevel": "student_reported_not_officially_confirmed"
+  },
+  {
+    "instructorId": "xintaowu",
+    "instructorName": "Xintao Wu",
+    "courseId": "CSCE 41403",
+    "courseName": "Data Mining",
+    "reportedCourseCode": "CSCE4143",
+    "source": "Rate My Professors — student-reported course",
+    "sourceUrl": "https://www.ratemyprofessors.com/professor/2093540",
+    "evidenceLevel": "student_reported_not_officially_confirmed"
+  },
+  {
+    "instructorId": "cmworkma",
+    "instructorName": "Chad Workman",
+    "courseId": "CSCE 21104",
+    "courseName": "Digital Design",
+    "reportedCourseCode": "CSCE-21104",
+    "source": "Rate My Professors — student-reported course",
+    "sourceUrl": "https://www.ratemyprofessors.com/professor/3029032",
+    "evidenceLevel": "student_reported_not_officially_confirmed"
+  },
+  {
+    "instructorId": "ahnelson",
+    "instructorName": "Alexander Nelson",
+    "courseId": "CSCE 46203",
+    "courseName": "Mobile Programming",
+    "reportedCourseCode": "CSCE4623",
+    "source": "Rate My Professors — student-reported course",
+    "sourceUrl": "https://www.ratemyprofessors.com/professor/2558657",
+    "evidenceLevel": "student_reported_not_officially_confirmed"
+  },
+  {
+    "instructorId": "cfarnell",
+    "instructorName": "Chris Farnell",
+    "courseId": "CSCE 21104",
+    "courseName": "Digital Design",
+    "reportedCourseCode": "CSCE21104",
+    "source": "Rate My Professors — student-reported course",
+    "sourceUrl": "https://www.ratemyprofessors.com/professor/2997704",
+    "evidenceLevel": "student_reported_not_officially_confirmed"
+  },
+  {
+    "instructorId": "khoaluu",
+    "instructorName": "Khoa Luu",
+    "courseId": "CSCE 46103",
+    "courseName": "Artificial Intelligence",
+    "reportedCourseCode": "CSCE4613",
+    "source": "Rate My Professors — student-reported course",
+    "sourceUrl": "https://www.ratemyprofessors.com/professor/2502642",
+    "evidenceLevel": "student_reported_not_officially_confirmed"
+  },
+  {
+    "instructorId": "jps011",
+    "instructorName": "Jim Strother",
+    "courseId": "CSCE 20004",
+    "courseName": "Programming Foundations I",
+    "reportedCourseCode": "CSCE2004",
+    "source": "Rate My Professors — student-reported course",
+    "sourceUrl": "https://www.ratemyprofessors.com/professor/2717300",
+    "evidenceLevel": "student_reported_not_officially_confirmed"
+  },
+  {
+    "instructorId": "jps011",
+    "instructorName": "Jim Strother",
+    "courseId": "CSCE 35103",
+    "courseName": "Software Engineering",
+    "reportedCourseCode": "CSCE35103",
+    "source": "Rate My Professors — student-reported course",
+    "sourceUrl": "https://www.ratemyprofessors.com/professor/2717300",
+    "evidenceLevel": "student_reported_not_officially_confirmed"
+  },
+  {
+    "instructorId": "qinghual",
+    "instructorName": "Qinghua Li",
+    "courseId": "CSCE 44303",
+    "courseName": "Cryptography",
+    "reportedCourseCode": "CSCE4433",
+    "source": "Rate My Professors — student-reported course",
+    "sourceUrl": "https://www.ratemyprofessors.com/professor/2006420",
+    "evidenceLevel": "student_reported_not_officially_confirmed"
+  },
+  {
+    "instructorId": "qinghual",
+    "instructorName": "Qinghua Li",
+    "courseId": "CSCE 47503",
+    "courseName": "Computer Networks",
+    "reportedCourseCode": "CSCE4753",
+    "source": "Rate My Professors — student-reported course",
+    "sourceUrl": "https://www.ratemyprofessors.com/professor/2006420",
+    "evidenceLevel": "student_reported_not_officially_confirmed"
+  },
+  {
+    "instructorId": "abhi",
+    "instructorName": "Abhi Rajagopala",
+    "courseId": "CSCE 22104",
+    "courseName": "Computer Organization",
+    "reportedCourseCode": "CSCE-22104",
+    "source": "Rate My Professors — student-reported course",
+    "sourceUrl": "https://www.ratemyprofessors.com/professor/3150324",
+    "evidenceLevel": "student_reported_not_officially_confirmed"
+  },
+  {
+    "instructorId": "mqhuang",
+    "instructorName": "Miaoqing Huang",
+    "courseId": "CSCE 22104",
+    "courseName": "Computer Organization",
+    "reportedCourseCode": "CSCE22104",
+    "source": "Rate My Professors — student-reported course",
+    "sourceUrl": "https://www.ratemyprofessors.com/professor/1533015",
+    "evidenceLevel": "student_reported_not_officially_confirmed"
+  },
+  {
+    "instructorId": "mqhuang",
+    "instructorName": "Miaoqing Huang",
+    "courseId": "CSCE 47803",
+    "courseName": "Cloud Computing and Security",
+    "reportedCourseCode": "CSCE4783",
+    "source": "Rate My Professors — student-reported course",
+    "sourceUrl": "https://www.ratemyprofessors.com/professor/1533015",
+    "evidenceLevel": "student_reported_not_officially_confirmed"
+  },
+  {
+    "instructorId": "lstrothe",
+    "instructorName": "Lora Streeter",
+    "courseId": "CSCE 31903",
+    "courseName": "Programming Paradigms",
+    "reportedCourseCode": "CSCE-31903",
+    "source": "Rate My Professors — student-reported course",
+    "sourceUrl": "https://www.ratemyprofessors.com/professor/2538820",
+    "evidenceLevel": "student_reported_not_officially_confirmed"
+  },
+  {
+    "instructorId": "yanjunp",
+    "instructorName": "Yanjun Pan",
+    "courseId": "CSCE 36103",
+    "courseName": "Operating Systems",
+    "reportedCourseCode": "CSCE-36103",
+    "source": "Rate My Professors — student-reported course",
+    "sourceUrl": "https://www.ratemyprofessors.com/professor/2964195",
+    "evidenceLevel": "student_reported_not_officially_confirmed"
+  },
+  {
+    "instructorId": "tar003",
+    "instructorName": "Trent Rogers",
+    "courseId": "CSCE 43203",
+    "courseName": "Formal Languages and Computability",
+    "reportedCourseCode": "CSCE43203",
+    "source": "Rate My Professors — student-reported course",
+    "sourceUrl": "https://www.ratemyprofessors.com/professor/3041061",
+    "evidenceLevel": "student_reported_not_officially_confirmed"
+  },
+  {
+    "instructorId": "dandrews",
+    "instructorName": "David Andrews",
+    "courseId": "CSCE 22104",
+    "courseName": "Computer Organization",
+    "reportedCourseCode": "CSCE2214",
+    "source": "Rate My Professors — student-reported course",
+    "sourceUrl": "https://www.ratemyprofessors.com/professor/1567398",
+    "evidenceLevel": "student_reported_not_officially_confirmed"
+  },
+  {
+    "instructorId": "dandrews",
+    "instructorName": "David Andrews",
+    "courseId": "CSCE 41104",
+    "courseName": "Embedded Systems",
+    "reportedCourseCode": "CSCE4114",
+    "source": "Rate My Professors — student-reported course",
+    "sourceUrl": "https://www.ratemyprofessors.com/professor/1567398",
+    "evidenceLevel": "student_reported_not_officially_confirmed"
+  }
+]
